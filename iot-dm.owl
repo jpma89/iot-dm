@@ -26,7 +26,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_349d66e3_865d_4889_a35d_e4b17e1abc08 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_349d66e3_865d_4889_a35d_e4b17e1abc08">
-        <rdfs:comment xml:lang="en">Test comment</rdfs:comment>
+        <rdfs:comment xml:lang="en">Test comment 2</rdfs:comment>
         <rdfs:label xml:lang="de">Device inventory</rdfs:label>
     </owl:Class>
     
