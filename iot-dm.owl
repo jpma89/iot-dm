@@ -189,12 +189,70 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_05c0294e_e33a_42c4_9511_e240252afc2f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_05c0294e_e33a_42c4_9511_e240252afc2f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerRegistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_09418094_9786_4ff2_b5d0_38f24fa88661 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_09418094_9786_4ff2_b5d0_38f24fa88661">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_89f81fe4_c0d0_4dd1_b866_babbba4f20de"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">TwoFactorAuthentication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_0b36c390_a253_4c36_97a2_46cd2749e411 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0b36c390_a253_4c36_97a2_46cd2749e411">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ImageNotBootable</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_0b74afc7_ab6a_480c_91c1_fe26c00b8297 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0b74afc7_ab6a_480c_91c1_fe26c00b8297">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_c74a5982_d5bc_40b3_9e18_c03e025b5949"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 7</rdfs:comment>
         <rdfs:label xml:lang="en">FlashSupport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_0badcf63_2acc_493f_937a_d8aa3625f97c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0badcf63_2acc_493f_937a_d8aa3625f97c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:label xml:lang="en">OperatingSystemManagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceImageCreation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:label xml:lang="en">DeviceManagementPlatformControlInterface</rdfs:label>
     </owl:Class>
     
 
@@ -228,6 +286,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_161fad8e_96a8_4a86_8d17_62ad54363b50 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_161fad8e_96a8_4a86_8d17_62ad54363b50">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6f8197a0_9425_4239_bea9_7e354c8cba24"/>
+        <rdfs:label xml:lang="en">FullUpdates</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_169f3b27_aa22_4707_936a_088618ef2999 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_169f3b27_aa22_4707_936a_088618ef2999">
@@ -250,7 +317,46 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
-        <rdfs:label xml:lang="en">SoftwareManagement</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceSoftwareManagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:label xml:lang="en">ApplicationManagment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_26b07b8c_41ba_49a3_9bea_08a9db2affeb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_26b07b8c_41ba_49a3_9bea_08a9db2affeb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">LogsByServiceFilter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_26e4e96a_53e5_4caf_8b2c_6e8ba96479ff -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_26e4e96a_53e5_4caf_8b2c_6e8ba96479ff">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_829a4147_2a1d_44ea_a9ef_0efaae5eaa5b"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">ODataAPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_273d6557_6465_43c6_b4fc_9121cf33d0df -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_273d6557_6465_43c6_b4fc_9121cf33d0df">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">VPN</rdfs:label>
     </owl:Class>
     
 
@@ -259,6 +365,54 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2a645b44_80eb_49d7_8add_d5dc3d46a6f9">
         <rdfs:label xml:lang="en">Firmware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2d519c83_8e6a_4b5e_829b_640913743110 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2d519c83_8e6a_4b5e_829b_640913743110">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">NodejsSDK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2d9c2b5f_16f1_4947_b01d_6f7578a2c079 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2d9c2b5f_16f1_4947_b01d_6f7578a2c079">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3"/>
+        <rdfs:label xml:lang="en">AccessMethod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:label xml:lang="en">DeviceParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:comment>https://www.balena.io/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerEngine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_35227df9_2a26_4bf1_ae48_32e3c50a341c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_35227df9_2a26_4bf1_ae48_32e3c50a341c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
+        <rdfs:label xml:lang="en">AccessToDeviceTerminal</rdfs:label>
     </owl:Class>
     
 
@@ -273,11 +427,60 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_377a1133_d579_4dc6_a9b2_f30dfcb313e2 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_377a1133_d579_4dc6_a9b2_f30dfcb313e2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_506a07f5_4566_41a4_84ac_ea621caa87b7"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">CommandLineInterface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_3787149f_55e1_4abd_84be_f329cca80a26 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3787149f_55e1_4abd_84be_f329cca80a26">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">UniqueDeviceIDAssignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_38488982_ccd5_4483_bed0_be7fc6bedd59 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_38488982_ccd5_4483_bed0_be7fc6bedd59">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264"/>
+        <rdfs:label xml:lang="en">MicrosoftWindowsOperatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_38648151_2bc3_4eae_ac21_4a37b377b716 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_38648151_2bc3_4eae_ac21_4a37b377b716">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerMonitoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_391c8c1f_1c6c_400e_94eb_7b7dc8d02ddb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_391c8c1f_1c6c_400e_94eb_7b7dc8d02ddb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9"/>
+        <rdfs:label xml:lang="en">DevicePreconfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
-        <rdfs:label xml:lang="en">PlatformFeature</rdfs:label>
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
     </owl:Class>
     
 
@@ -300,12 +503,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_4238e43b_a030_446d_849f_b48464c7134a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4238e43b_a030_446d_849f_b48464c7134a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a2e5a8b7_7e0e_4972_a701_e63b5a3364f6"/>
+        <rdfs:label xml:lang="en">ProgrammingLanguage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_44ddb928_3187_4588_90e9_512f4856bf45 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_44ddb928_3187_4588_90e9_512f4856bf45">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 12</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareImagePointers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_47c759b6_e09c_4798_9056_f499ebeecae4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_47c759b6_e09c_4798_9056_f499ebeecae4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">API</rdfs:label>
     </owl:Class>
     
 
@@ -330,6 +552,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9"/>
+        <rdfs:label xml:lang="en">FirmwareUpdateFailures</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_4cb539bf_351f_4637_96c6_7a614670f3c1 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4cb539bf_351f_4637_96c6_7a614670f3c1">
@@ -340,11 +571,60 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_506a07f5_4566_41a4_84ac_ea621caa87b7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_506a07f5_4566_41a4_84ac_ea621caa87b7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9"/>
+        <rdfs:label xml:lang="en">UserInterface</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f1b54d5c_4482_4645_a2f1_6efa8e12b8de"/>
+        <owl:disjointWith rdf:resource="http://purl.org/net/iot-dm#OWLClass_efe7810e_2a97_4b8e_9967_d305e3277152"/>
         <rdfs:label xml:lang="en">WireBased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5210941a_39bd_48b4_9dfe_1d58f87cc61b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5210941a_39bd_48b4_9dfe_1d58f87cc61b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">ServiceEnvironmentVariables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_55d1cb26_9c78_4aa1_8a68_6ccd0b705736 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_55d1cb26_9c78_4aa1_8a68_6ccd0b705736">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6f8197a0_9425_4239_bea9_7e354c8cba24"/>
+        <rdfs:comment>&quot;This tells the supervisor to only download the binary differences between the old and the new images.&quot;,
+https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">DeltaUpdates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:label xml:lang="en">DeviceRegistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5955434e_8208_462c_a26b_6628081fe0bf -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5955434e_8208_462c_a26b_6628081fe0bf">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
+        <rdfs:label xml:lang="en">ConfigurationParameters</rdfs:label>
     </owl:Class>
     
 
@@ -359,6 +639,25 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_629f62fe_a656_498c_aedb_17b631a536c1 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_629f62fe_a656_498c_aedb_17b631a536c1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_989411ba_e811_4185_bc1f_277d10d81160"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">SSH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_63057798_6c27_4642_9ffc_9e5b09529dd2 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_63057798_6c27_4642_9ffc_9e5b09529dd2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_391c8c1f_1c6c_400e_94eb_7b7dc8d02ddb"/>
+        <rdfs:label xml:lang="en">NetworkingPreconfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_64c0c545_2d62_4a61_ac06_9c832a2e4708 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_64c0c545_2d62_4a61_ac06_9c832a2e4708">
@@ -369,12 +668,60 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_6783e7e3_bc50_49de_8d69_4e137eec977b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6783e7e3_bc50_49de_8d69_4e137eec977b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
+        <rdfs:label xml:lang="en">SecureDeviceCommunication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_679e1f1b_68ba_4f57_924f_2e3ac97255da -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_679e1f1b_68ba_4f57_924f_2e3ac97255da">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_c74a5982_d5bc_40b3_9e18_c03e025b5949"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 7</rdfs:comment>
         <rdfs:label xml:lang="en">RecoveryMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6a861511_ae7e_429b_aa27_b5378544b99e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6a861511_ae7e_429b_aa27_b5378544b99e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceName</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6f8197a0_9425_4239_bea9_7e354c8cba24 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6f8197a0_9425_4239_bea9_7e354c8cba24">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerUpdate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceLogs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d"/>
+        <rdfs:label xml:lang="en">ContainerBasedApplicationManagment</rdfs:label>
     </owl:Class>
     
 
@@ -402,7 +749,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_749421de_be9b_4633_b63b_302dc8e546ff -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_749421de_be9b_4633_b63b_302dc8e546ff">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">PowerFailure</rdfs:label>
     </owl:Class>
@@ -415,6 +762,35 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 12</rdfs:comment>
         <rdfs:label xml:lang="en">IntendedDevicesForApplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_774c7acb_c17d_4e26_8afc_75f16a0910c5 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_774c7acb_c17d_4e26_8afc_75f16a0910c5">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90"/>
+        <rdfs:label xml:lang="en">LogMonitoringTools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_7860c554_e01a_4475_aca9_f00705849c9d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7860c554_e01a_4475_aca9_f00705849c9d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">OSVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_794b6e93_f7ec_4b06_8f74_fe96709e33a2 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_794b6e93_f7ec_4b06_8f74_fe96709e33a2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ServiceMonitoring</rdfs:label>
     </owl:Class>
     
 
@@ -432,7 +808,16 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7ed5a132_c15b_486f_91f4_ad5eb4433cef">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
-        <rdfs:label xml:lang="en">FirmwareUpdate</rdfs:label>
+        <rdfs:label xml:lang="en">FirmwareUpdateManagment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_829a4147_2a1d_44ea_a9ef_0efaae5eaa5b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_829a4147_2a1d_44ea_a9ef_0efaae5eaa5b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_47c759b6_e09c_4798_9056_f499ebeecae4"/>
+        <rdfs:label xml:lang="en">RESTful</rdfs:label>
     </owl:Class>
     
 
@@ -447,6 +832,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
+        <rdfs:label xml:lang="en">AccessToLocalDeviceData</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_843d87bc_a343_470f_bff0_872b15b14c16 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_843d87bc_a343_470f_bff0_872b15b14c16">
@@ -456,11 +850,109 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">SDK</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_869abf01_eaf3_41bc_95ed_6a11d4959818 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_869abf01_eaf3_41bc_95ed_6a11d4959818">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
         <rdfs:label xml:lang="en">Bootloader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8880aec0_29cf_4557_a1c3_3505555b54eb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8880aec0_29cf_4557_a1c3_3505555b54eb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_506a07f5_4566_41a4_84ac_ea621caa87b7"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">WebBasedDashboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90"/>
+        <rdfs:label xml:lang="en">Categories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_89f81fe4_c0d0_4dd1_b866_babbba4f20de -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_89f81fe4_c0d0_4dd1_b866_babbba4f20de">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9"/>
+        <rdfs:label xml:lang="en">ControlInterfaceSecurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">UniqueDeviceID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8b38f2cc_e06e_4d7c_b178_d4eb90c79a9f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8b38f2cc_e06e_4d7c_b178_d4eb90c79a9f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerSupervisor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8c2c705b_ddcf_4dc0_b9d5_6e507868806e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8c2c705b_ddcf_4dc0_b9d5_6e507868806e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
+        <rdfs:label xml:lang="en">NetworkParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8d0e042d_1b1f_49ba_adfe_c0f3225daaf6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8d0e042d_1b1f_49ba_adfe_c0f3225daaf6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerSupervisorVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9062c375_f510_47a7_85fc_84f547a06681 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9062c375_f510_47a7_85fc_84f547a06681">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9"/>
+        <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 6-7</rdfs:comment>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">MultipleFirmwareLocations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9262cf89_f165_4ed8_9dd2_cf6a02eb9924 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9262cf89_f165_4ed8_9dd2_cf6a02eb9924">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_63057798_6c27_4642_9ffc_9e5b09529dd2"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">WiFiCredentials</rdfs:label>
     </owl:Class>
     
 
@@ -484,12 +976,41 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_989411ba_e811_4185_bc1f_277d10d81160 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_989411ba_e811_4185_bc1f_277d10d81160">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_35227df9_2a26_4bf1_ae48_32e3c50a341c"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">WebTerminal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_98c7c2d8_185b_4994_82a7_b5e82b2bcdde -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_98c7c2d8_185b_4994_82a7_b5e82b2bcdde">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cf7d1708_1ca4_40a2_8852_72361ee2b730"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareImageEncryption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_99c4f5ac_bd0a_4686_9de1_4f1b80bc296a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_99c4f5ac_bd0a_4686_9de1_4f1b80bc296a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">JavaScriptSDK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:label xml:lang="en">SoftwareMonitoring</rdfs:label>
     </owl:Class>
     
 
@@ -508,6 +1029,52 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423">
         <rdfs:comment xml:lang="en">&quot;The device is the recipient of the firmware image and the manifest. The goal is to update the firmware of the device.&quot;, draft-moran-suit-architecture-03 (work in progress), p. 5</rdfs:comment>
         <rdfs:label xml:lang="en">InternetOfThingsDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9e7db1e6_48ce_4068_8b89_935b193258d4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9e7db1e6_48ce_4068_8b89_935b193258d4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264"/>
+        <rdfs:label xml:lang="en">OtherOperatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9e9be86d_d950_4eb4_a6f6_717f9456afd4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9e9be86d_d950_4eb4_a6f6_717f9456afd4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">PythonSDK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:label xml:lang="en">DeviceCommunication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a2e5a8b7_7e0e_4972_a701_e63b5a3364f6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a2e5a8b7_7e0e_4972_a701_e63b5a3364f6">
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a36da934_36bc_4c07_bf06_2116cc5819b7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a36da934_36bc_4c07_bf06_2116cc5819b7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerDelivery</rdfs:label>
     </owl:Class>
     
 
@@ -540,6 +1107,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105"/>
+        <rdfs:label xml:lang="en">ContainerLifecycleManagment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_b6721ba6_4ea5_4be0_b34f_ff739be47358 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b6721ba6_4ea5_4be0_b34f_ff739be47358">
@@ -559,6 +1135,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5"/>
+        <rdfs:label xml:lang="en">DeviceProvisioning</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_beae1841_eca4_4666_bf75_5e2665a737e8 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_beae1841_eca4_4666_bf75_5e2665a737e8">
@@ -569,11 +1154,51 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_bec04496_99a7_4304_ab0c_85592a8bdfca -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_bec04496_99a7_4304_ab0c_85592a8bdfca">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6783e7e3_bc50_49de_8d69_4e137eec977b"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">CommunicationEncryption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_c0146b07_0c7e_4207_a8df_d7e5f67bc654 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c0146b07_0c7e_4207_a8df_d7e5f67bc654">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:comment>&quot;The services themselves can also make use of update locking to block updates from happening during critical times (e.g. a drone that is flying, or an industrial machine that is in the middle of an operation).&quot;, https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">UpdateLocking</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_c35d26c2_65cc_49bd_9875_9932fb747dd5 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c35d26c2_65cc_49bd_9875_9932fb747dd5">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e1800f6_b3ba_41ee_b0ce_dac66a1a8680"/>
         <rdfs:label xml:lang="en">ApplicationLayerProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_c465ac2b_a0c1_4be6_bc30_442c9d95f8b4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c465ac2b_a0c1_4be6_bc30_442c9d95f8b4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2d9c2b5f_16f1_4947_b01d_6f7578a2c079"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">WebBasedAccess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_c64ae4a2_8cfa_49cd_b99d_f4a326820c2f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c64ae4a2_8cfa_49cd_b99d_f4a326820c2f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">stdout</rdfs:label>
     </owl:Class>
     
 
@@ -588,12 +1213,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:label xml:lang="en">DeviceMonitoring</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_cdca4605_0981_47f3_be76_554636de1e00 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cdca4605_0981_47f3_be76_554636de1e00">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9848edfa_0cb1_4d11_96e3_a0d197164164"/>
         <rdfs:comment xml:lang="en">draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">BroadcastFirmwareDelivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_ce0a0295_7d23_4e15_bede_e55ff6079039 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ce0a0295_7d23_4e15_bede_e55ff6079039">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8c2c705b_ddcf_4dc0_b9d5_6e507868806e"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceIPAddress</rdfs:label>
     </owl:Class>
     
 
@@ -608,10 +1252,29 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
+        <rdfs:label xml:lang="en">SoftwareVersions</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_cfe637aa_ec08_45c2_88c1_6a6c989d5b1e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cfe637aa_ec08_45c2_88c1_6a6c989d5b1e">
         <rdfs:label xml:lang="en">Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_d1c35aff_78e2_440f_8842_f12fc0ad9a9f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d1c35aff_78e2_440f_8842_f12fc0ad9a9f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerStartup</rdfs:label>
     </owl:Class>
     
 
@@ -629,7 +1292,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_d7f22e0f_3381_4d55_9bbb_0cd4a1d919df -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d7f22e0f_3381_4d55_9bbb_0cd4a1d919df">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareValidationFailure</rdfs:label>
     </owl:Class>
@@ -645,12 +1308,50 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_d95c726a_c63f_4e85_b9da_25bc5817b956 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d95c726a_c63f_4e85_b9da_25bc5817b956">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_bec04496_99a7_4304_ab0c_85592a8bdfca"/>
+        <rdfs:label xml:lang="en">HTTPS</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_e512b9bb_a591_4c14_9a22_c4819142eb18 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e512b9bb_a591_4c14_9a22_c4819142eb18">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a4d744e_1ddc_4fc8_be82_966b2e491882"/>
         <rdfs:comment xml:lang="en">&quot;Firmware images and manifests are stored on untrusted fileservers or cloud storage infrastructure. Some deployments may require storage of the firmware images/manifests to be stored on various entities before they reach the device.&quot;, draft-moran-suit-architecture-03 (work in progress), p. 5</rdfs:comment>
         <rdfs:label xml:lang="en">UntrustedFirmwareStorage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e5962d5f_21c4_44f3_9ffa_9d9ee33b4f99 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e5962d5f_21c4_44f3_9ffa_9d9ee33b4f99">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerAssembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
+        <rdfs:label xml:lang="en">AdditionalInfomationAssignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e68cce3c_c023_425e_bbcf_ab80711b21d3 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e68cce3c_c023_425e_bbcf_ab80711b21d3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">stderr</rdfs:label>
     </owl:Class>
     
 
@@ -683,12 +1384,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_ebf6283b_1c32_4dee_b1ba_5c32f88cd39c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ebf6283b_1c32_4dee_b1ba_5c32f88cd39c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264"/>
+        <rdfs:label xml:lang="en">UNIXLikeOperatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_edabf253_b496_407b_acae_0404f2e7d43b -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_edabf253_b496_407b_acae_0404f2e7d43b">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_beae1841_eca4_4666_bf75_5e2665a737e8"/>
         <rdfs:comment xml:lang="en">draft-moran-suit-architecture-03 (work in progress), p. 4</rdfs:comment>
         <rdfs:label xml:lang="en">MaliciousFirmwareImageFlashingPrevention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_ef9faee2_1aea_4a46_b8a3_68bfe5a1e1be -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ef9faee2_1aea_4a46_b8a3_68bfe5a1e1be">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerSupervisorLogs</rdfs:label>
     </owl:Class>
     
 
@@ -711,6 +1431,35 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_f1d3bcad_a4a4_4c9b_9bc8_01fc7df976b4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f1d3bcad_a4a4_4c9b_9bc8_01fc7df976b4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationContainer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5"/>
+        <rdfs:label xml:lang="en">DeviceOverview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f54399c8_de31_4d25_a3e2_8bf624ed0afb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f54399c8_de31_4d25_a3e2_8bf624ed0afb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
+        <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
+        <rdfs:label xml:lang="en">ContainerShutdown</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_f6834970_02d2_44b4_afa3_984bfb353727 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f6834970_02d2_44b4_afa3_984bfb353727">
@@ -721,10 +1470,30 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_f90a27f1_b907_4b25_8e8e_3614b29682e9 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f90a27f1_b907_4b25_8e8e_3614b29682e9">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">Notes</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_f9c2dcec_1d84_4a42_b0ba_c8c976636fd2 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f9c2dcec_1d84_4a42_b0ba_c8c976636fd2">
         <rdfs:label xml:lang="en">DataTransfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_fe29038f_fa6a_4e4a_bd8d_193a2ba9554e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fe29038f_fa6a_4e4a_bd8d_193a2ba9554e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_829a4147_2a1d_44ea_a9ef_0efaae5eaa5b"/>
+        <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
+        <rdfs:label xml:lang="en">JSON_API</rdfs:label>
     </owl:Class>
     
 
@@ -846,6 +1615,25 @@
         <OWLDataProperty_2c9fc3cb_c453_4592_bd27_ceff0315c7cc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wi-Fi</OWLDataProperty_2c9fc3cb_c453_4592_bd27_ceff0315c7cc>
         <rdfs:label xml:lang="en">IEEE802.11</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_15514c90_84d5_4670_93a6_9566cb808feb"/>
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_49ac79d7_c437_4c71_8da3_ae6ad1e83073"/>
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
