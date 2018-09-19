@@ -29,7 +29,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_44ddb928_3187_4588_90e9_512f4856bf45"/>
         <rdfs:range rdf:resource="http://purl.org/net/iot-dm#OWLClass_15514c90_84d5_4670_93a6_9566cb808feb"/>
-        <rdfs:label xml:lang="en">pointTo</rdfs:label>
+        <rdfs:label xml:lang="en">pointsTo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -40,7 +40,7 @@
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_49ac79d7_c437_4c71_8da3_ae6ad1e83073"/>
         <rdfs:range rdf:resource="http://purl.org/net/iot-dm#OWLClass_15514c90_84d5_4670_93a6_9566cb808feb"/>
         <rdfs:range rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
-        <rdfs:label xml:lang="en">create</rdfs:label>
+        <rdfs:label xml:lang="en">creates</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -51,7 +51,7 @@
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a4d744e_1ddc_4fc8_be82_966b2e491882"/>
         <rdfs:range rdf:resource="http://purl.org/net/iot-dm#OWLClass_15514c90_84d5_4670_93a6_9566cb808feb"/>
         <rdfs:range rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
-        <rdfs:label xml:lang="en">store</rdfs:label>
+        <rdfs:label xml:lang="en">stores</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -128,7 +128,6 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_4acd7938_bb24_4402_99ae_145ab4e4b46e">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="de">featureName</rdfs:label>
     </owl:DatatypeProperty>
@@ -189,12 +188,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_052ba795_e3ac_4e59_831a_65d381fe5a0a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_052ba795_e3ac_4e59_831a_65d381fe5a0a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d8e49365_06e1_40c2_99fc_891f2256aad1"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">UPnP</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_05c0294e_e33a_42c4_9511_e240252afc2f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_05c0294e_e33a_42c4_9511_e240252afc2f">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">ContainerRegistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_08385527_c024_48c2_986f_4df96714e457 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_08385527_c024_48c2_986f_4df96714e457">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">DeviceControlInterface</rdfs:label>
     </owl:Class>
     
 
@@ -219,6 +237,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_0b54422a_6554_4d67_9f00_88c2284689a6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0b54422a_6554_4d67_9f00_88c2284689a6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_62fae845_5a8c_4d71_980f_2f8cea75de35"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceControlMessageParsing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_0b74afc7_ab6a_480c_91c1_fe26c00b8297 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0b74afc7_ab6a_480c_91c1_fe26c00b8297">
@@ -238,6 +266,14 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6">
+        <rdfs:label xml:lang="en">InternetOfThingsGateway</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9">
@@ -248,11 +284,21 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_10c7eafe_93df_425a_8e9d_870eee7b9e02 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_10c7eafe_93df_425a_8e9d_870eee7b9e02">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I., III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceInformationExposure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
-        <rdfs:label xml:lang="en">DeviceManagementPlatformControlInterface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">PlatformControlInterface</rdfs:label>
     </owl:Class>
     
 
@@ -266,12 +312,42 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_120574a4_44e7_4d45_836c_63185579c9c5 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_120574a4_44e7_4d45_836c_63185579c9c5">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">SensorValues</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_139ffd25_0d52_4625_8b15_44db26cacc9b -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_139ffd25_0d52_4625_8b15_44db26cacc9b">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e73ce412_848f_4de5_aadb_256be525abe9"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 12</rdfs:comment>
         <rdfs:label xml:lang="en">DigitalSignatures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_13c796b1_46e2_4fc7_b2d1_299b6746d07f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_13c796b1_46e2_4fc7_b2d1_299b6746d07f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_83a75814_662d_468a_bb24_dba5318a80ae"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">MulticastAdvertisementMessage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_08385527_c024_48c2_986f_4df96714e457"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">PubSubBasedInterface</rdfs:label>
     </owl:Class>
     
 
@@ -316,7 +392,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
         <rdfs:label xml:lang="en">DeviceSoftwareManagement</rdfs:label>
     </owl:Class>
     
@@ -334,9 +410,19 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_26b07b8c_41ba_49a3_9bea_08a9db2affeb -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_26b07b8c_41ba_49a3_9bea_08a9db2affeb">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_774c7acb_c17d_4e26_8afc_75f16a0910c5"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">LogsByServiceFilter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_26b89687_0b06_4e3f_bb15_6cd4b670a9f4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_26b89687_0b06_4e3f_bb15_6cd4b670a9f4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_83a75814_662d_468a_bb24_dba5318a80ae"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">JSON_basedAutoConfigurationMessage</rdfs:label>
     </owl:Class>
     
 
@@ -400,7 +486,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
         <rdfs:comment>https://www.balena.io/, 2018-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">ContainerEngine</rdfs:label>
@@ -413,6 +499,16 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_35227df9_2a26_4bf1_ae48_32e3c50a341c">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
         <rdfs:label xml:lang="en">AccessToDeviceTerminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_354f3545_3c42_493b_a984_cbbfa168c104 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_354f3545_3c42_493b_a984_cbbfa168c104">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">IPbased</rdfs:label>
     </owl:Class>
     
 
@@ -476,15 +572,6 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e -->
-
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
-        <rdfs:label xml:lang="en">Feature</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/net/iot-dm#OWLClass_3a4d744e_1ddc_4fc8_be82_966b2e491882 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3a4d744e_1ddc_4fc8_be82_966b2e491882">
@@ -494,11 +581,12 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570 -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
-        <rdfs:label xml:lang="en">Software</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">InteroperabilityBetweenHeterogeneousDevices</rdfs:label>
     </owl:Class>
     
 
@@ -518,6 +606,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 12</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareImagePointers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_46a7e189_9a8b_455b_8a6e_e53d55e0ef91 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_46a7e189_9a8b_455b_8a6e_e53d55e0ef91">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_13c796b1_46e2_4fc7_b2d1_299b6746d07f"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">URI</rdfs:label>
     </owl:Class>
     
 
@@ -552,6 +650,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
+        <rdfs:label xml:lang="en">CoreInformation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca">
@@ -580,6 +687,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_50fbea29_82d9_4084_8911_5be2605906e2 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_50fbea29_82d9_4084_8911_5be2605906e2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f86901a5_61d3_4e5a_8ec6_984ffda5de83"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">RegisterDeviceInformationAfterAdvertisement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35">
@@ -600,6 +717,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_5445a1b7_eb6b_4343_bd06_a0427b710d6d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5445a1b7_eb6b_4343_bd06_a0427b710d6d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e1800f6_b3ba_41ee_b0ce_dac66a1a8680"/>
+        <rdfs:label xml:lang="en">TransportLayerProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_55d1cb26_9c78_4aa1_8a68_6ccd0b705736 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_55d1cb26_9c78_4aa1_8a68_6ccd0b705736">
@@ -611,10 +737,28 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
+        <rdfs:label xml:lang="en">DataManagment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824"/>
+        <rdfs:label xml:lang="en">DeviceAdapter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
         <rdfs:label xml:lang="en">DeviceRegistry</rdfs:label>
     </owl:Class>
     
@@ -625,6 +769,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5955434e_8208_462c_a26b_6628081fe0bf">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
         <rdfs:label xml:lang="en">ConfigurationParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_59f9fddd_1432_4e40_a405_357e43b95f6f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_59f9fddd_1432_4e40_a405_357e43b95f6f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I., II., III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DynamicDeviceDiscovery</rdfs:label>
     </owl:Class>
     
 
@@ -649,6 +803,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_62fae845_5a8c_4d71_980f_2f8cea75de35 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_62fae845_5a8c_4d71_980f_2f8cea75de35">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f86901a5_61d3_4e5a_8ec6_984ffda5de83"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceControlMessageTranslation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_63057798_6c27_4642_9ffc_9e5b09529dd2 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_63057798_6c27_4642_9ffc_9e5b09529dd2">
@@ -664,6 +828,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b6721ba6_4ea5_4be0_b34f_ff739be47358"/>
         <rdfs:comment xml:lang="en">draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">RollbackAttackPrevention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_64df463c_d105_497a_8a42_0a003352ad6d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_64df463c_d105_497a_8a42_0a003352ad6d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d8e49365_06e1_40c2_99fc_891f2256aad1"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">DPWS</rdfs:label>
     </owl:Class>
     
 
@@ -692,7 +866,17 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6a861511_ae7e_429b_aa27_b5378544b99e">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711"/>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceName</rdfs:label>
+        <rdfs:label xml:lang="en">ProvidedDeviceName</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6c880a72_9e64_487c_96fd_37a321cb1838 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6c880a72_9e64_487c_96fd_37a321cb1838">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceStatusChangeMessage</rdfs:label>
     </owl:Class>
     
 
@@ -795,6 +979,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_7ad7ced8_90c7_430c_be99_6cc4328aef1a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7ad7ced8_90c7_430c_be99_6cc4328aef1a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">NonIPbased</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9">
@@ -832,6 +1026,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_83a75814_662d_468a_bb24_dba5318a80ae -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_83a75814_662d_468a_bb24_dba5318a80ae">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">AutoConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3">
@@ -860,10 +1064,20 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_869676ae_38cc_42d1_99e8_d76b7a144f45 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_869676ae_38cc_42d1_99e8_d76b7a144f45">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">CommunicationProtocolTranslation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_869abf01_eaf3_41bc_95ed_6a11d4959818 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_869abf01_eaf3_41bc_95ed_6a11d4959818">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
         <rdfs:label xml:lang="en">Bootloader</rdfs:label>
     </owl:Class>
     
@@ -900,7 +1114,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">UniqueDeviceID</rdfs:label>
     </owl:Class>
@@ -1006,6 +1220,26 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_9ac2a5e2_d1a8_4c6c_a900_ed624c7fcef0 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9ac2a5e2_d1a8_4c6c_a900_ed624c7fcef0">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">StatusInformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9c485c52_97b4_4f00_a5b5_a47810f6c6be -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9c485c52_97b4_4f00_a5b5_a47810f6c6be">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceAutoConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f">
@@ -1052,11 +1286,21 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_a1218b84_bf57_4b13_a97f_f6174a106e05 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a1218b84_bf57_4b13_a97f_f6174a106e05">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">IPbased</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
-        <rdfs:label xml:lang="en">DeviceCommunication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">CommunicationChannel</rdfs:label>
     </owl:Class>
     
 
@@ -1089,11 +1333,12 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_a44151bb_df63_46ab_83d4_4729ed3d9437 -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_a6782e7b_231e_47f2_8e4e_14508f18888f -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a44151bb_df63_46ab_83d4_4729ed3d9437">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
-        <rdfs:label xml:lang="en">Memory</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a6782e7b_231e_47f2_8e4e_14508f18888f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_13c796b1_46e2_4fc7_b2d1_299b6746d07f"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceName</rdfs:label>
     </owl:Class>
     
 
@@ -1101,7 +1346,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
         <rdfs:label xml:lang="en">OperatingSystem</rdfs:label>
     </owl:Class>
     
@@ -1116,10 +1361,47 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
+        <rdfs:label xml:lang="en">ProtocolSupport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
+        <rdfs:label xml:lang="en">DeviceManagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_b36b9cf5_86ad_4f75_8368_c8d26856c4bf -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b36b9cf5_86ad_4f75_8368_c8d26856c4bf">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e1800f6_b3ba_41ee_b0ce_dac66a1a8680"/>
+        <rdfs:label xml:lang="en">LinkLayerProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_b39f059d_7905_49e8_ad5f_9c295491892b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b39f059d_7905_49e8_ad5f_9c295491892b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">NonIPbased</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_b6721ba6_4ea5_4be0_b34f_ff739be47358 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b6721ba6_4ea5_4be0_b34f_ff739be47358">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3b78457a_7727_405c_b2a4_8e155e6e995b"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
         <rdfs:label xml:lang="en">FirmwareUpdateMechanism</rdfs:label>
     </owl:Class>
     
@@ -1216,7 +1498,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3a365333_41a7_4402_afef_15925d0a397e"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
         <rdfs:label xml:lang="en">DeviceMonitoring</rdfs:label>
     </owl:Class>
     
@@ -1279,6 +1561,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
+        <rdfs:label xml:lang="en">Connectivity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_d6c16025_fac0_46c8_8583_b885fc1b424b -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d6c16025_fac0_46c8_8583_b885fc1b424b">
@@ -1299,11 +1590,12 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_d934c727_2f55_45c2_a543_d027e3cb8128 -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_d8e49365_06e1_40c2_99fc_891f2256aad1 -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d934c727_2f55_45c2_a543_d027e3cb8128">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
-        <rdfs:label xml:lang="en">Storage</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d8e49365_06e1_40c2_99fc_891f2256aad1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagementAndDiscoveryProtocol</rdfs:label>
     </owl:Class>
     
 
@@ -1313,6 +1605,35 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d95c726a_c63f_4e85_b9da_25bc5817b956">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_bec04496_99a7_4304_ab0c_85592a8bdfca"/>
         <rdfs:label xml:lang="en">HTTPS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_da249273_d7c6_4881_83fd_88aba0709718 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_da249273_d7c6_4881_83fd_88aba0709718">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_62fae845_5a8c_4d71_980f_2f8cea75de35"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceControlMessagePushdown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_db2a76f1_763b_45e0_ae7c_7bfd26c9a72e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_db2a76f1_763b_45e0_ae7c_7bfd26c9a72e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagementProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_dd852ca2_21fe_412c_ba77_747bdc3e8cb0 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_dd852ca2_21fe_412c_ba77_747bdc3e8cb0">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e1800f6_b3ba_41ee_b0ce_dac66a1a8680"/>
+        <rdfs:label xml:lang="en">InternetLayerProtocol</rdfs:label>
     </owl:Class>
     
 
@@ -1341,7 +1662,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
-        <rdfs:label xml:lang="en">AdditionalInfomationAssignment</rdfs:label>
+        <rdfs:label xml:lang="en">AdditionalInfomation</rdfs:label>
     </owl:Class>
     
 
@@ -1379,7 +1700,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e">
-        <rdfs:label xml:lang="en">InternetOfThingsDeviceManagementPlatform</rdfs:label>
+        <rdfs:label xml:lang="en">InternetOfThingsPlatform</rdfs:label>
     </owl:Class>
     
 
@@ -1450,6 +1771,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d"/>
+        <rdfs:label xml:lang="en">DeviceAdapter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_f54399c8_de31_4d25_a3e2_8bf624ed0afb -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f54399c8_de31_4d25_a3e2_8bf624ed0afb">
@@ -1470,6 +1800,26 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_f86901a5_61d3_4e5a_8ec6_984ffda5de83 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f86901a5_61d3_4e5a_8ec6_984ffda5de83">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f8dc270e_05c8_4acc_8401_aa1e7c2d4cdf -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f8dc270e_05c8_4acc_8401_aa1e7c2d4cdf">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceControlMessage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_f90a27f1_b907_4b25_8e8e_3614b29682e9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f90a27f1_b907_4b25_8e8e_3614b29682e9">
@@ -1484,6 +1834,25 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f9c2dcec_1d84_4a42_b0ba_c8c976636fd2">
         <rdfs:label xml:lang="en">DataTransfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6"/>
+        <rdfs:label xml:lang="en">Connectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_fb0267bc_bf86_4446_ad0a_a300adb91c85 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fb0267bc_bf86_4446_ad0a_a300adb91c85">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_13c796b1_46e2_4fc7_b2d1_299b6746d07f"/>
+        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
+        <rdfs:label xml:lang="en">UUID</rdfs:label>
     </owl:Class>
     
 
@@ -1632,6 +2001,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
             <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_15514c90_84d5_4670_93a6_9566cb808feb"/>
             <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_49ac79d7_c437_4c71_8da3_ae6ad1e83073"/>
             <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_5445a1b7_eb6b_4343_bd06_a0427b710d6d"/>
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_b36b9cf5_86ad_4f75_8368_c8d26856c4bf"/>
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_c35d26c2_65cc_49bd_9875_9932fb747dd5"/>
+            <rdf:Description rdf:about="http://purl.org/net/iot-dm#OWLClass_dd852ca2_21fe_412c_ba77_747bdc3e8cb0"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
