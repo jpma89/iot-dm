@@ -429,6 +429,15 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
+        <rdfs:label xml:lang="en">ApplicationPlatform</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_1d708038_ca44_4723_a910_a811401f688c -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1d708038_ca44_4723_a910_a811401f688c">
@@ -447,12 +456,23 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_20ed2639_e6b8_4144_8ec9_34ce2a2a9f15 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_20ed2639_e6b8_4144_8ec9_34ce2a2a9f15">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_35675b83_774d_4402_9ce1_6b0bc13b514f"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
+        <rdfs:comment>Permanently or temporarily</rdfs:comment>
+        <rdfs:label xml:lang="en">LeftDevices</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 486</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceCharacteristics</rdfs:label>
+        <rdfs:label xml:lang="en">InherentDeviceCharacteristics</rdfs:label>
     </owl:Class>
     
 
@@ -460,7 +480,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_22b2bdaa_bda4_4b5e_b89c_45b9385203f7 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_22b2bdaa_bda4_4b5e_b89c_45b9385203f7">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceEvents</rdfs:label>
     </owl:Class>
@@ -526,10 +546,19 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_28082eb5_3e38_41bb_ba51_c4224fe7fdce -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_28082eb5_3e38_41bb_ba51_c4224fe7fdce">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_348de6b7_7669_4563_ae9b_3b4a7ec8b87f"/>
+        <rdfs:label xml:lang="en">PhysicalStatisticalEstimationModels</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_29d80687_8df7_4e30_8f2b_05f9b2317021 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_29d80687_8df7_4e30_8f2b_05f9b2317021">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">Brand</rdfs:label>
     </owl:Class>
@@ -559,6 +588,16 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2d9c2b5f_16f1_4947_b01d_6f7578a2c079">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8420db7e_6cbf_4959_ac1b_39fdae9da0b3"/>
         <rdfs:label xml:lang="en">AccessMethod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2e990825_4f19_4397_8ccb_fe14344dd987 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2e990825_4f19_4397_8ccb_fe14344dd987">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_35675b83_774d_4402_9ce1_6b0bc13b514f"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
+        <rdfs:label xml:lang="en">NonExistingDevices</rdfs:label>
     </owl:Class>
     
 
@@ -605,9 +644,19 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_33b97d68_aad6_46b8_976a_88dc9e3d2ae5 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_33b97d68_aad6_46b8_976a_88dc9e3d2ae5">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_348de6b7_7669_4563_ae9b_3b4a7ec8b87f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_348de6b7_7669_4563_ae9b_3b4a7ec8b87f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7b141ed0_5648_4402_8f34_8078c00b8ee7"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
+        <rdfs:label xml:lang="en">EstimationModels</rdfs:label>
     </owl:Class>
     
 
@@ -637,6 +686,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_11ab1b8e_e60f_4b34_bd83_50a77595a516"/>
         <rdfs:comment xml:lang="en">draft-moran-suit-architecture-03 (work in progress), p. 9</rdfs:comment>
         <rdfs:label xml:lang="en">PushToDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_35675b83_774d_4402_9ce1_6b0bc13b514f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_35675b83_774d_4402_9ce1_6b0bc13b514f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5236ab9a_e39c_4e90_b265_63064ec80b33"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
+        <rdfs:label xml:lang="en">MissingDeviceHandling</rdfs:label>
     </owl:Class>
     
 
@@ -691,6 +750,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
+        <rdfs:label xml:lang="en">DeviceAttributes</rdfs:label>
+        <rdfs:seeAlso>DeviceMetaData</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_391c8c1f_1c6c_400e_94eb_7b7dc8d02ddb -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_391c8c1f_1c6c_400e_94eb_7b7dc8d02ddb">
@@ -729,6 +798,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_41368d9c_8c83_44a2_96df_68f75ba3a48c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_41368d9c_8c83_44a2_96df_68f75ba3a48c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">DataTransferMethod</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570">
@@ -762,7 +841,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_459d0fc6_7d23_4d67_bbf3_641367874b75 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_459d0fc6_7d23_4d67_bbf3_641367874b75">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceServices</rdfs:label>
     </owl:Class>
@@ -829,15 +908,6 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7 -->
-
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
-        <rdfs:label xml:lang="en">CoreDeviceInformation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca">
@@ -896,6 +966,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2., 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">SensingModality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35">
@@ -912,6 +992,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d"/>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
         <rdfs:label xml:lang="en">ServiceEnvironmentVariables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5236ab9a_e39c_4e90_b265_63064ec80b33 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5236ab9a_e39c_4e90_b265_63064ec80b33">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:label xml:lang="en">DeviceDependedServices</rdfs:label>
     </owl:Class>
     
 
@@ -964,6 +1053,17 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_57f6a391_24c8_4901_93fb_7b09b9ec1f23 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_57f6a391_24c8_4901_93fb_7b09b9ec1f23">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">HardwareComponents</rdfs:label>
+        <rdfs:seeAlso>InternalComponents</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5">
@@ -978,6 +1078,17 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5955434e_8208_462c_a26b_6628081fe0bf">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
         <rdfs:label xml:lang="en">ConfigurationParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_598813b0_a951_4d92_b5a1_a3eefb2d0082 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_598813b0_a951_4d92_b5a1_a3eefb2d0082">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">HardwareComponents</rdfs:label>
+        <rdfs:seeAlso>InternalComponents</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1123,7 +1234,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_6dbd00cf_8e98_4cc0_812b_960bd34dc6e4 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6dbd00cf_8e98_4cc0_812b_960bd34dc6e4">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">UnitOfMeasure</rdfs:label>
     </owl:Class>
@@ -1155,6 +1266,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_71dcf03b_6cc1_4da4_9574_874b4477d105">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_267278cd_85b2_4704_84d7_a7cb4004d16d"/>
         <rdfs:label xml:lang="en">ContainerBasedApplicationManagment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_72dc5ecb_db1f_475d_bd80_0e7d6d1e1c56 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_72dc5ecb_db1f_475d_bd80_0e7d6d1e1c56">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
+        <rdfs:label xml:lang="en">ErrorCharacteristics</rdfs:label>
     </owl:Class>
     
 
@@ -1238,6 +1359,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_7b141ed0_5648_4402_8f34_8078c00b8ee7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7b141ed0_5648_4402_8f34_8078c00b8ee7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
+        <rdfs:label xml:lang="en">MissingDataPointEstimation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9">
@@ -1259,7 +1390,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_81e411c6_43af_4e07_9341_d53659bfbb91 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_81e411c6_43af_4e07_9341_d53659bfbb91">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 490</rdfs:comment>
         <rdfs:label xml:lang="en">InitialDeviceSetupRequirements</rdfs:label>
     </owl:Class>
@@ -1362,6 +1493,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_86bc12fa_4b44_4cb3_bc89_b209cf044cf0 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_86bc12fa_4b44_4cb3_bc89_b209cf044cf0">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2., 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">GeographicLocation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_8880aec0_29cf_4557_a1c3_3505555b54eb -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8880aec0_29cf_4557_a1c3_3505555b54eb">
@@ -1393,7 +1534,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c5b22f5_45e5_4e77_8e1e_51f01b1d74d7"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">UniqueDeviceID</rdfs:label>
     </owl:Class>
@@ -1549,6 +1690,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_9ad954d6_93a6_46e3_94d4_e486143e0812 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9ad954d6_93a6_46e3_94d4_e486143e0812">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
+        <rdfs:label xml:lang="en">ErrorModels</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f">
@@ -1591,6 +1742,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">PythonSDK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a0392fad_b9d8_449e_a5ee_9a4633fe2912 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a0392fad_b9d8_449e_a5ee_9a4633fe2912">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">SamplingMethod</rdfs:label>
     </owl:Class>
     
 
@@ -1695,6 +1856,28 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
         <rdfs:label xml:lang="en">ProtocolSupport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_b1b5ed2a_164d_442c_b05a_f9d7c3177a43 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b1b5ed2a_164d_442c_b05a_f9d7c3177a43">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986"/>
+        <rdfs:comment>&quot;The real world property measured
+by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">PhysicalConcept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_b1f8545f_a25f_4736_a13d_3ca3506ab184 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b1f8545f_a25f_4736_a13d_3ca3506ab184">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
+        <rdfs:label xml:lang="en">EstimationMethods</rdfs:label>
     </owl:Class>
     
 
@@ -1824,6 +2007,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_c50e4d77_da83_4a1c_b2af_de71fb6d913a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c50e4d77_da83_4a1c_b2af_de71fb6d913a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 3.2</rdfs:comment>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_c64ae4a2_8cfa_49cd_b99d_f4a326820c2f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c64ae4a2_8cfa_49cd_b99d_f4a326820c2f">
@@ -1932,7 +2125,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_d4c400c3_4296_4e1f_8d68_3fc880b3eac4 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d4c400c3_4296_4e1f_8d68_3fc880b3eac4">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 486</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceFunctionalities</rdfs:label>
     </owl:Class>
@@ -2080,7 +2273,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e68b7577_38f1_497e_8b5c_229be057d711">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
-        <rdfs:label xml:lang="en">AdditionalDeviceInfomation</rdfs:label>
+        <rdfs:label xml:lang="en">UserProvidedDeviceInfomation</rdfs:label>
     </owl:Class>
     
 
@@ -2111,6 +2304,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_df537b47_a081_4de8_8904_3c63392ae836"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">KPI_Definition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e9d7d7c5_7e8c_4097_b246_1c97529acb5e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e9d7d7c5_7e8c_4097_b246_1c97529acb5e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
+        <rdfs:label xml:lang="en">ServiceAvailabilityLimitationHandling</rdfs:label>
     </owl:Class>
     
 
