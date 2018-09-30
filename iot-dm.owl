@@ -178,6 +178,26 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_00acf628_285b_4f11_9b67_ef07dc8022cb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_00acf628_285b_4f11_9b67_ef07dc8022cb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceConfigurationInitialization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_032afd50_d465_4cb9_9d7d_4042fed8c7cb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_032afd50_d465_4cb9_9d7d_4042fed8c7cb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0b06f64b_69d9_4b6c_965b_186dc58c39eb"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">EventAnalytics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_04b7e838_4035_4343_a9df_bc2e65615ff2 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_04b7e838_4035_4343_a9df_bc2e65615ff2">
@@ -218,10 +238,21 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_0802d184_c79b_4c44_be1c_441d20d3adc4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0802d184_c79b_4c44_be1c_441d20d3adc4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0b06f64b_69d9_4b6c_965b_186dc58c39eb"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">MultipleManagementDataSourcesSupport</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_08385527_c024_48c2_986f_4df96714e457 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_08385527_c024_48c2_986f_4df96714e457">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2281b85a_ace5_4ac3_910f_536f7370505e"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceControlInterface</rdfs:label>
     </owl:Class>
     
@@ -237,12 +268,32 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_096a024f_bfdd_4fde_8523_ed1d37d8c23e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_096a024f_bfdd_4fde_8523_ed1d37d8c23e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6, 12</rdfs:comment>
+        <rdfs:label xml:lang="en">QualityOfServiceGuarantee</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_098db16c_fb93_4aca_8bc2_5b421cfed288 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_098db16c_fb93_4aca_8bc2_5b421cfed288">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_845f9a81_9845_4e96_b5cf_5d06ab798969"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">RealTimeEventAnalytics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_0b06f64b_69d9_4b6c_965b_186dc58c39eb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0b06f64b_69d9_4b6c_965b_186dc58c39eb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagementAnalytics</rdfs:label>
     </owl:Class>
     
 
@@ -294,6 +345,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_0c4e8a84_78ff_41fc_9998_b9845dc97245 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0c4e8a84_78ff_41fc_9998_b9845dc97245">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">IoT_ComponentReuse</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0d737558_6941_40af_ab34_090d7a6e91b9">
@@ -326,7 +387,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4bff393a_9b00_4db5_a375_9baf63f63167"/>
         <rdfs:label xml:lang="en">PlatformControlInterface</rdfs:label>
     </owl:Class>
     
@@ -381,6 +442,25 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_14a656e6_bf9d_4fb8_bc47_9dbb20c8c43c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_14a656e6_bf9d_4fb8_bc47_9dbb20c8c43c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6, 8</rdfs:comment>
+        <rdfs:label xml:lang="en">UnifiedDeviceManagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_14f6ac55_025a_4626_934b_e27de3af1145 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_14f6ac55_025a_4626_934b_e27de3af1145">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">DeviceTroubleshootingAndDiagnostics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03">
@@ -419,6 +499,26 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_16cd1e7c_b16e_4612_98eb_8935ff2fe30b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_16cd1e7c_b16e_4612_98eb_8935ff2fe30b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1d7dd666_95ba_4c41_9a91_d850e9c0f479"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">NetworkUsageEfficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_1725b847_7dbe_46b0_aa1f_3a6c6bdc236f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1725b847_7dbe_46b0_aa1f_3a6c6bdc236f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_14f6ac55_025a_4626_934b_e27de3af1145"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">ConnectionDiagnostics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_1af506a2_819c_4a9b_946d_e113aa62e310 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1af506a2_819c_4a9b_946d_e113aa62e310">
@@ -438,11 +538,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_1c94fa2c_ae83_478d_af9c_a4454dc491c3 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1c94fa2c_ae83_478d_af9c_a4454dc491c3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ec9156ee_5023_4804_9c7c_19a9a4ad18b4"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 10</rdfs:comment>
+        <rdfs:label xml:lang="en">RetransmissionStrategy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_1d708038_ca44_4723_a910_a811401f688c -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1d708038_ca44_4723_a910_a811401f688c">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cdca4605_0981_47f3_be76_554636de1e00"/>
         <rdfs:label xml:lang="en">FirmwareDeliveryMessage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_1d7dd666_95ba_4c41_9a91_d850e9c0f479 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1d7dd666_95ba_4c41_9a91_d850e9c0f479">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">EfficientCommunication</rdfs:label>
     </owl:Class>
     
 
@@ -473,6 +593,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_36c8fbfb_7218_4373_a13b_f46a86f007be"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 486</rdfs:comment>
         <rdfs:label xml:lang="en">InherentDeviceCharacteristics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2281b85a_ace5_4ac3_910f_536f7370505e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2281b85a_ace5_4ac3_910f_536f7370505e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">DeviceControl</rdfs:label>
     </owl:Class>
     
 
@@ -607,7 +736,8 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2ee3c907_2ad6_45fc_999f_299667c29188">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceInformationCompletion</rdfs:label>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceInformationMaintenance</rdfs:label>
     </owl:Class>
     
 
@@ -632,11 +762,23 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_30ea11de_95fd_46c4_a0cb_bcb17dcf6830 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_30ea11de_95fd_46c4_a0cb_bcb17dcf6830">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
+        <rdfs:label xml:lang="en">NetworkParameters</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
-        <rdfs:label xml:lang="en">VirtualDeviceInstanceCreation</rdfs:label>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">VirtualDeviceInstanceRegistration</rdfs:label>
+        <rdfs:seeAlso>VirtualDeviceInstanceCreation</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -665,7 +807,9 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_35227df9_2a26_4bf1_ae48_32e3c50a341c">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6"/>
-        <rdfs:label xml:lang="en">AccessToDeviceTerminal</rdfs:label>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 7</rdfs:comment>
+        <rdfs:label>CommandLineInterface</rdfs:label>
+        <rdfs:seeAlso>DeviceTerminal</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -675,7 +819,7 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_354f3545_3c42_493b_a984_cbbfa168c104">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
-        <rdfs:label xml:lang="en">IPbased</rdfs:label>
+        <rdfs:label xml:lang="en">IP_Based</rdfs:label>
     </owl:Class>
     
 
@@ -726,7 +870,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65"/>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
-        <rdfs:label xml:lang="en">UniqueDeviceIDAssignment</rdfs:label>
+        <rdfs:label xml:lang="en">UniqueDeviceID_Assignment</rdfs:label>
     </owl:Class>
     
 
@@ -778,6 +922,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_3cddadab_1422_4479_b1cb_4486ecdc0da4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3cddadab_1422_4479_b1cb_4486ecdc0da4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">MassConnections</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_3ecade8f_1df9_48ad_a87a_84b305761c34 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3ecade8f_1df9_48ad_a87a_84b305761c34">
@@ -811,7 +965,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_41f40ffd_5a9f_42e3_afa1_b9e328d20570">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 486</rdfs:comment>
         <rdfs:label xml:lang="en">InteroperabilityBetweenHeterogeneousDevices</rdfs:label>
@@ -862,6 +1016,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_47c759b6_e09c_4798_9056_f499ebeecae4">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_10ff6f33_7c39_432c_9ac0_c8c9d830b8b9"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
         <rdfs:label xml:lang="en">API</rdfs:label>
     </owl:Class>
@@ -888,12 +1043,31 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_4aa258d4_0b15_42d1_b4ed_87a2494976e5 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4aa258d4_0b15_42d1_b4ed_87a2494976e5">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">OpenProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_4b1504d5_8402_464c_a20c_f1c564d0ff8f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4b1504d5_8402_464c_a20c_f1c564d0ff8f">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 490</rdfs:comment>
         <rdfs:label xml:lang="en">AlertingEngine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_4bff393a_9b00_4db5_a375_9baf63f63167 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4bff393a_9b00_4db5_a375_9baf63f63167">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">PlatformControl</rdfs:label>
     </owl:Class>
     
 
@@ -913,6 +1087,16 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c69f2df_35c9_4bf1_8b7f_b0e8fcac7aca">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7c8282da_3443_4c49_a838_df6cb9a459c9"/>
         <rdfs:label xml:lang="en">FirmwareUpdateFailures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_4c92b333_17aa_4b39_86cb_89b4a5083d67 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4c92b333_17aa_4b39_86cb_89b4a5083d67">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceAddress</rdfs:label>
     </owl:Class>
     
 
@@ -937,12 +1121,32 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_4d396412_7f2b_4b3e_bdc6_058a63a3cc91 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4d396412_7f2b_4b3e_bdc6_058a63a3cc91">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cfbd03e3_461e_49ac_a682_824dcbfcacdd"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationAPI</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_4daf23df_ce27_4a36_8ce8_efb91ef3cef6 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4daf23df_ce27_4a36_8ce8_efb91ef3cef6">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_845f9a81_9845_4e96_b5cf_5d06ab798969"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488, 490</rdfs:comment>
         <rdfs:label xml:lang="en">RulesEngine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_4e1b6f8d_ac53_4b88_a781_eac802f81766 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4e1b6f8d_ac53_4b88_a781_eac802f81766">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a1b8792e_7d00_48b8_9efe_c6e47629e99c"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">EventAnalytics</rdfs:label>
     </owl:Class>
     
 
@@ -976,6 +1180,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_51f271e6_f53c_4e1c_8f4c_8827c382e69a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51f271e6_f53c_4e1c_8f4c_8827c382e69a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0b06f64b_69d9_4b6c_965b_186dc58c39eb"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">DataAnalytics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51f80f1b_9d49_4d14_9668_07947f56db35">
@@ -1001,6 +1215,16 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5236ab9a_e39c_4e90_b265_63064ec80b33">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
         <rdfs:label xml:lang="en">DeviceDependedServices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5303cc63_d095_4c30_b893_51cfe691cb7e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5303cc63_d095_4c30_b893_51cfe691cb7e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceParameterConfiguration</rdfs:label>
     </owl:Class>
     
 
@@ -1038,8 +1262,8 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ebbfff77_6bbb_477e_9f30_934e7239601e"/>
-        <rdfs:label xml:lang="en">DataManagment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:label xml:lang="en">BigDataManagement</rdfs:label>
     </owl:Class>
     
 
@@ -1048,6 +1272,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824"/>
+        <rdfs:comment>&quot;translate the captured event from the sensor devices into a standard format and deliver it through broadband or wireless networks to the cloud platform&quot;, Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceAdapter</rdfs:label>
     </owl:Class>
     
@@ -1078,6 +1303,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5955434e_8208_462c_a26b_6628081fe0bf">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
         <rdfs:label xml:lang="en">ConfigurationParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">DeviceConfigurationManagement</rdfs:label>
     </owl:Class>
     
 
@@ -1119,6 +1353,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b5c0d821_b62f_4098_9a87_9ab068cebe46"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceInformationKnowledgeBase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6097d2e6_765c_4afb_adf0_729cc96dab8b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6097d2e6_765c_4afb_adf0_729cc96dab8b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">ProcessMonitoring</rdfs:label>
     </owl:Class>
     
 
@@ -1172,6 +1416,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_63ca1431_e88a_4323_a5fd_4c5b7c041c9e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_63ca1431_e88a_4323_a5fd_4c5b7c041c9e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">Trust</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_64c0c545_2d62_4a61_ac06_9c832a2e4708 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_64c0c545_2d62_4a61_ac06_9c832a2e4708">
@@ -1188,6 +1442,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d8e49365_06e1_40c2_99fc_891f2256aad1"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
         <rdfs:label xml:lang="en">DPWS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:label xml:lang="en">NonFunctional</rdfs:label>
     </owl:Class>
     
 
@@ -1359,12 +1622,22 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_7a42bb23_408d_438d_9e91_c2ab809aff6d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7a42bb23_408d_438d_9e91_c2ab809aff6d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9fcb5dc3_b98f_464b_ad5b_3b1b47050d11"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">RemoteControl</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_7ad7ced8_90c7_430c_be99_6cc4328aef1a -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7ad7ced8_90c7_430c_be99_6cc4328aef1a">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
-        <rdfs:label xml:lang="en">NonIPbased</rdfs:label>
+        <rdfs:label xml:lang="en">NonIP_Based</rdfs:label>
     </owl:Class>
     
 
@@ -1372,7 +1645,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_7b141ed0_5648_4402_8f34_8078c00b8ee7 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7b141ed0_5648_4402_8f34_8078c00b8ee7">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_56ca2f5d_d065_4fe0_bfd8_9c86ea85f200"/>
         <rdfs:comment>Ontologies for the Internet of Things, 2.</rdfs:comment>
         <rdfs:label xml:lang="en">MissingDataPointEstimation</rdfs:label>
     </owl:Class>
@@ -1392,6 +1665,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7ed5a132_c15b_486f_91f4_ad5eb4433cef">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareUpdateManagment</rdfs:label>
     </owl:Class>
     
@@ -1523,6 +1797,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_88ad35cc_61a1_4cc0_bbd6_f74a256051bb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_88ad35cc_61a1_4cc0_bbd6_f74a256051bb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">Privacy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a">
@@ -1641,6 +1925,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_96668876_e17b_46e9_b086_5835d62ceaaa -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_96668876_e17b_46e9_b086_5835d62ceaaa">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
+        <rdfs:label xml:lang="en">DevicePerformanceMonitoring</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a">
@@ -1710,6 +2004,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_9ceb488f_3183_4fed_a52c_afbad9d64014 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9ceb488f_3183_4fed_a52c_afbad9d64014">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cfbd03e3_461e_49ac_a682_824dcbfcacdd"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">RouteForwardingToApplicationLayer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9d0581a1_1bab_4643_9336_b632fa350e2f">
@@ -1756,6 +2060,18 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_9fcb5dc3_b98f_464b_ad5b_3b1b47050d11 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9fcb5dc3_b98f_464b_ad5b_3b1b47050d11">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>&quot;little or no direct human interactions&quot;, Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1
+
+&quot;No direct human interaction: It is necessary to ensure a reliable communication via remote device and communication managements.&quot;, Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">AutonomousDeviceOperationSupport</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_a0392fad_b9d8_449e_a5ee_9a4633fe2912 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a0392fad_b9d8_449e_a5ee_9a4633fe2912">
@@ -1776,12 +2092,22 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_a0f94d3c_fb8e_479e_81cd_4412cc42771f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a0f94d3c_fb8e_479e_81cd_4412cc42771f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">VirtualDeviceInstanceDeregistration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_a1218b84_bf57_4b13_a97f_f6174a106e05 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a1218b84_bf57_4b13_a97f_f6174a106e05">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
-        <rdfs:label xml:lang="en">IPbased</rdfs:label>
+        <rdfs:label xml:lang="en">IP_based</rdfs:label>
     </owl:Class>
     
 
@@ -1791,6 +2117,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a18f091d_134e_4059_ada6_9695459aa5f6">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
         <rdfs:label xml:lang="en">DeviceManagementCommunicationChannel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a1b8792e_7d00_48b8_9efe_c6e47629e99c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a1b8792e_7d00_48b8_9efe_c6e47629e99c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">BigDataAnalytics</rdfs:label>
     </owl:Class>
     
 
@@ -1838,6 +2174,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a6cf31e3_5d7b_48b4_bce6_eada63815264">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
         <rdfs:label xml:lang="en">OperatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_a6f072f9_98b2_40d1_ba35_6dc98cfeeb54 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_a6f072f9_98b2_40d1_ba35_6dc98cfeeb54">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:label xml:lang="en">ApplicationDevelopmentFeatures</rdfs:label>
     </owl:Class>
     
 
@@ -1915,7 +2260,7 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b39f059d_7905_49e8_ad5f_9c295491892b">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
-        <rdfs:label xml:lang="en">NonIPbased</rdfs:label>
+        <rdfs:label xml:lang="en">NonIP_Based</rdfs:label>
     </owl:Class>
     
 
@@ -1962,8 +2307,19 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceProvisioning</rdfs:label>
         <rdfs:seeAlso>DeviceRegistration</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_be9385a6_0ac3_41d7_8249_f6beae8acb64 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_be9385a6_0ac3_41d7_8249_f6beae8acb64">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1d7dd666_95ba_4c41_9a91_d850e9c0f479"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceEnergyEfficiency</rdfs:label>
     </owl:Class>
     
 
@@ -1988,10 +2344,30 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_bf7efd4a_62aa_4826_9e57_bb136265d0e0 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_bf7efd4a_62aa_4826_9e57_bb136265d0e0">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationRuntime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_c013fdbe_4c9d_4aff_835d_543df3b064d6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c013fdbe_4c9d_4aff_835d_543df3b064d6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ec9156ee_5023_4804_9c7c_19a9a4ad18b4"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 10</rdfs:comment>
+        <rdfs:label xml:lang="en">EndToEndAcknowledgement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_c0146b07_0c7e_4207_a8df_d7e5f67bc654 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c0146b07_0c7e_4207_a8df_d7e5f67bc654">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7ed5a132_c15b_486f_91f4_ad5eb4433cef"/>
         <rdfs:comment>&quot;The services themselves can also make use of update locking to block updates from happening during critical times (e.g. a drone that is flying, or an industrial machine that is in the middle of an operation).&quot;, https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">UpdateLocking</rdfs:label>
     </owl:Class>
@@ -2056,10 +2432,21 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_c9387f59_78a4_45ac_a4bc_157f6c976385 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c9387f59_78a4_45ac_a4bc_157f6c976385">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4aa258d4_0b15_42d1_b4ed_87a2494976e5"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
+        <rdfs:label xml:lang="en">CoAP</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1, 6</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceMonitoring</rdfs:label>
     </owl:Class>
     
@@ -2105,6 +2492,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_cfbd03e3_461e_49ac_a682_824dcbfcacdd -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cfbd03e3_461e_49ac_a682_824dcbfcacdd">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationServices</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2">
@@ -2118,6 +2515,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_cfe637aa_ec08_45c2_88c1_6a6c989d5b1e">
         <rdfs:label xml:lang="en">Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_d1a0965b_1f40_47d7_a843_c95e73835de7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d1a0965b_1f40_47d7_a843_c95e73835de7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">RealTimeDeviceManagement</rdfs:label>
     </owl:Class>
     
 
@@ -2200,22 +2607,22 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_db2a76f1_763b_45e0_ae7c_7bfd26c9a72e -->
-
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_db2a76f1_763b_45e0_ae7c_7bfd26c9a72e">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_aeedc945_dbf7_4c98_9625_addd661997c7"/>
-        <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceManagementProtocol</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/net/iot-dm#OWLClass_dc03e030_6d6c_4437_b2df_51251234a10e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_dc03e030_6d6c_4437_b2df_51251234a10e">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4daf23df_ce27_4a36_8ce8_efb91ef3cef6"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488, 490, 492</rdfs:comment>
         <rdfs:label xml:lang="en">ActionTriggers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceStatusInquiry</rdfs:label>
     </owl:Class>
     
 
@@ -2229,10 +2636,30 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_defe9266_4e6d_4036_8134_4ad7f7a4797e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_defe9266_4e6d_4036_8134_4ad7f7a4797e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationDataTransmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_df3a8c65_3c73_47f9_9391_4f3082112ee4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_df3a8c65_3c73_47f9_9391_4f3082112ee4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
+        <rdfs:label xml:lang="en">ResourceObservation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_df537b47_a081_4de8_8904_3c63392ae836 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_df537b47_a081_4de8_8904_3c63392ae836">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_96668876_e17b_46e9_b086_5835d62ceaaa"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceKPIs</rdfs:label>
     </owl:Class>
@@ -2255,6 +2682,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b5c0d821_b62f_4098_9a87_9ab068cebe46"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">Reasoning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e468299f_e290_44f7_989c_7b1c80d2cf6b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e468299f_e290_44f7_989c_7b1c80d2cf6b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">ProcessManagement</rdfs:label>
     </owl:Class>
     
 
@@ -2318,12 +2755,52 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_e7e81967_1b1b_4dfb_b9b6_c40e0ffab441 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e7e81967_1b1b_4dfb_b9b6_c40e0ffab441">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">Security</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e7f24ae4_85a4_48f4_be0a_4110909373bb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e7f24ae4_85a4_48f4_be0a_4110909373bb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a1b8792e_7d00_48b8_9efe_c6e47629e99c"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">SensorDataAnalytics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e9559715_ca44_42e4_ab33_3545bec40f7e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e9559715_ca44_42e4_ab33_3545bec40f7e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a6f072f9_98b2_40d1_ba35_6dc98cfeeb54"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 12</rdfs:comment>
+        <rdfs:label xml:lang="en">ApplicationDevelopmentEnvironment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_e9d7d7c5_7e8c_4097_b246_1c97529acb5e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e9d7d7c5_7e8c_4097_b246_1c97529acb5e">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
         <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
         <rdfs:label xml:lang="en">ServiceAvailabilityLimitationHandling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_ea3d6bb7_6214_4f65_b908_d0465750090d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ea3d6bb7_6214_4f65_b908_d0465750090d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_14f6ac55_025a_4626_934b_e27de3af1145"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 12, 13</rdfs:comment>
+        <rdfs:label xml:lang="en">FailureHandling</rdfs:label>
     </owl:Class>
     
 
@@ -2355,6 +2832,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_ec9156ee_5023_4804_9c7c_19a9a4ad18b4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ec9156ee_5023_4804_9c7c_19a9a4ad18b4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">ReliableCommunication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_edabf253_b496_407b_acae_0404f2e7d43b -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_edabf253_b496_407b_acae_0404f2e7d43b">
@@ -2380,6 +2867,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_efe7810e_2a97_4b8e_9967_d305e3277152">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f1b54d5c_4482_4645_a2f1_6efa8e12b8de"/>
         <rdfs:label xml:lang="en">Wireless</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f0ff9712_08e7_405e_ae96_7d6c3f319b37 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f0ff9712_08e7_405e_ae96_7d6c3f319b37">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 13</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceName</rdfs:label>
     </owl:Class>
     
 
@@ -2426,6 +2923,7 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f519e17a_515d_402f_a5da_1cffe41727ea">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d"/>
+        <rdfs:comment>&quot;translate the captured event from the sensor devices into a standard format and deliver it through broadband or wireless networks to the cloud platform&quot;, Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceAdapter</rdfs:label>
     </owl:Class>
     
@@ -2437,6 +2935,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">ContainerShutdown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f58b9658_2ee9_4f41_83f0_3bbdce1de398 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f58b9658_2ee9_4f41_83f0_3bbdce1de398">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">ProtocolConversion</rdfs:label>
     </owl:Class>
     
 
@@ -2456,7 +2964,8 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f86901a5_61d3_4e5a_8ec6_984ffda5de83">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section I.</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceManagement</rdfs:label>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 12</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagementBridge</rdfs:label>
     </owl:Class>
     
 
@@ -2493,7 +3002,7 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f9db282e_22e2_48e5_a643_a42df05c880d">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0bbb7819_d9df_4553_8196_2a8ee5c4c6e6"/>
-        <rdfs:label xml:lang="en">Connectivity</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceConnectivity</rdfs:label>
     </owl:Class>
     
 
@@ -2517,6 +3026,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_fd976a8f_5722_4bc3_82e7_06a832fd9581 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fd976a8f_5722_4bc3_82e7_06a832fd9581">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1bd19af8_5e90_482f_b798_79ba7cc8d671"/>
+        <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
+        <rdfs:label xml:lang="en">IoT_ComponentAbstraction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_fe29038f_fa6a_4e4a_bd8d_193a2ba9554e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fe29038f_fa6a_4e4a_bd8d_193a2ba9554e">
@@ -2533,6 +3052,15 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_beae1841_eca4_4666_bf75_5e2665a737e8"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareAuthorVerification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:label xml:lang="en">ManagementProtocol</rdfs:label>
     </owl:Class>
     
 
