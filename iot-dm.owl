@@ -1103,6 +1103,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_5c08eefa_8244_4272_b68c_6f24666eb49d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5c08eefa_8244_4272_b68c_6f24666eb49d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
+        <rdfs:comment>The Internet of Things: An Overview, p. 25</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceSecurityManagement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989">
@@ -2398,6 +2408,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_59540155_cb79_4e35_8db8_7519fb3535d5"/>
         <rdfs:label xml:lang="en">DeviceOverview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f4c68c89_a4ee_4e3f_b527_9a88d50887fe -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f4c68c89_a4ee_4e3f_b527_9a88d50887fe">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
+        <rdfs:comment>The Internet of Things: An Overview, p. 25</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceManagementAgent</rdfs:label>
     </owl:Class>
     
 
