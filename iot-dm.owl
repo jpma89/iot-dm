@@ -182,8 +182,10 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_00acf628_285b_4f11_9b67_ef07dc8022cb">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-023</rdfs:comment>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceConfigurationInitialization</rdfs:label>
+        <rdfs:seeAlso>DeviceBootstrapProvisioning</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -345,6 +347,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_0c29c03d_ca35_4020_8fbc_14a78bbc0e6c -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0c29c03d_ca35_4020_8fbc_14a78bbc0e6c">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-030</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceState</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_0c4e8a84_78ff_41fc_9998_b9845dc97245 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0c4e8a84_78ff_41fc_9998_b9845dc97245">
@@ -369,6 +381,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_0fd00cb3_e44d_420b_bff2_9aafb1b10ace">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-023</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceDiscovery</rdfs:label>
     </owl:Class>
     
@@ -519,12 +532,32 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_18471212_0dca_43c7_807a_1e3346b35c76 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_18471212_0dca_43c7_807a_1e3346b35c76">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-026</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceConnectivityStatus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_1af506a2_819c_4a9b_946d_e113aa62e310 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1af506a2_819c_4a9b_946d_e113aa62e310">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4a64f37_cafb_440d_8e03_c1895c63f6ea"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">VisualizationOfDeviceNetwork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_1b1c6eb8_b3e5_458b_9129_f0f558a09b74 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_1b1c6eb8_b3e5_458b_9129_f0f558a09b74">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-036</rdfs:comment>
+        <rdfs:label xml:lang="en">MessageDeliveryAcknowledgement</rdfs:label>
     </owl:Class>
     
 
@@ -576,6 +609,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_204fbe41_1ddf_476c_ad8a_1d0161ca1d40 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_204fbe41_1ddf_476c_ad8a_1d0161ca1d40">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-024</rdfs:comment>
+        <rdfs:label xml:lang="en">ThresholdBasedReportingMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_20ed2639_e6b8_4144_8ec9_34ce2a2a9f15 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_20ed2639_e6b8_4144_8ec9_34ce2a2a9f15">
@@ -606,6 +649,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_228f4585_63dc_41a1_8a68_b3cf514d174d -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_228f4585_63dc_41a1_8a68_b3cf514d174d">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-025</rdfs:comment>
+        <rdfs:label xml:lang="en">RadioSignalStrengthReportingMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_22b2bdaa_bda4_4b5e_b89c_45b9385203f7 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_22b2bdaa_bda4_4b5e_b89c_45b9385203f7">
@@ -622,6 +675,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a9fa280a_8537_4626_a942_bab8a45552c7"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 490</rdfs:comment>
         <rdfs:label xml:lang="en">TimerEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_2546b23c_c54a_478f_8b94_7aaebcfce295 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2546b23c_c54a_478f_8b94_7aaebcfce295">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_14739992_7ff1_4cb3_91a7_25d88fd84a18"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-007</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceErrorReporting</rdfs:label>
     </owl:Class>
     
 
@@ -702,6 +765,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_2b77c491_438d_4176_bfc8_1ca1e94c8b12 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2b77c491_438d_4176_bfc8_1ca1e94c8b12">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-008</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceRestart</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_2d519c83_8e6a_4b5e_829b_640913743110 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2d519c83_8e6a_4b5e_829b_640913743110">
@@ -746,7 +819,17 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
-        <rdfs:label xml:lang="en">DeviceParameters</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceInformationRetrieval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_308975a3_5765_4401_95ac_7d1b99100408 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_308975a3_5765_4401_95ac_7d1b99100408">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e7e81967_1b1b_4dfb_b9b6_c40e0ffab441"/>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-SEC-001</rdfs:label>
+        <rdfs:label xml:lang="en">SecureClientServerCommunication</rdfs:label>
     </owl:Class>
     
 
@@ -772,10 +855,21 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_32d5b16a_ce18_4cf3_9f00_3b392ba579df -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_32d5b16a_ce18_4cf3_9f00_3b392ba579df">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4c92b333_17aa_4b39_86cb_89b4a5083d67"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-002</rdfs:comment>
+        <rdfs:label xml:lang="en">BinaryDeviceAddress</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3300e6af_4338_4bf4_ab9e_632af0b5ad65">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ba85de28_3f87_455f_9993_c51b31e1a44e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-023</rdfs:comment>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 8</rdfs:comment>
         <rdfs:label xml:lang="en">VirtualDeviceInstanceRegistration</rdfs:label>
         <rdfs:seeAlso>VirtualDeviceInstanceCreation</rdfs:seeAlso>
@@ -840,6 +934,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5236ab9a_e39c_4e90_b265_63064ec80b33"/>
         <rdfs:comment>Ontologies for the Internet of Things, 1.</rdfs:comment>
         <rdfs:label xml:lang="en">MissingDeviceHandling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_36aae163_04b8_4f81_a497_d51a026e43cd -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_36aae163_04b8_4f81_a497_d51a026e43cd">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-017</rdfs:comment>
+        <rdfs:label xml:lang="en">SessionlessCommunication</rdfs:label>
     </owl:Class>
     
 
@@ -932,6 +1036,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_3ceb9a52_fff5_43aa_9e28_d691e003aff7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3ceb9a52_fff5_43aa_9e28_d691e003aff7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-013</rdfs:comment>
+        <rdfs:label xml:lang="en">ClientToServerConnectionTriggering</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_3ecade8f_1df9_48ad_a87a_84b305761c34 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_3ecade8f_1df9_48ad_a87a_84b305761c34">
@@ -948,6 +1062,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_a9fa280a_8537_4626_a942_bab8a45552c7"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 490</rdfs:comment>
         <rdfs:label xml:lang="en">MessageEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_402577f2_92ce_4bed_8fd2_eb7be357cddc -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_402577f2_92ce_4bed_8fd2_eb7be357cddc">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_755c484b_7249_4f24_81fb_2d9ac5948eab"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-032</rdfs:comment>
+        <rdfs:label xml:lang="en">Execute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_408c9232_8fd3_469b_8081_2f758ee2f9e8 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_408c9232_8fd3_469b_8081_2f758ee2f9e8">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_77093e6d_5bcf_4317_aedc_a07046a659aa"/>
+        <rdfs:label xml:lang="en">AuthorizationOfCommandsPerResource</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-AZ-033</rdfs:label>
     </owl:Class>
     
 
@@ -1170,6 +1304,16 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_51336fa4_fb22_4ebd_a256_d97feab08b64 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_51336fa4_fb22_4ebd_a256_d97feab08b64">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8e4f6b4d_92dd_4de5_9e89_8d0f3d918c5e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-021</rdfs:comment>
+        <rdfs:label xml:lang="en">EventTriggerReportingMechanismConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_515bf129_124c_4413_9e49_8de009d76986">
@@ -1311,7 +1455,8 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b21422b7_b049_4b16_b3e0_53d1c9d53e85"/>
-        <rdfs:label xml:lang="en">DeviceConfigurationManagement</rdfs:label>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-012</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceConfiguration</rdfs:label>
     </owl:Class>
     
 
@@ -1337,6 +1482,26 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_5aea1112_cae7_4859_9130_ea812551f4a9 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5aea1112_cae7_4859_9130_ea812551f4a9">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-010</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceEnablingAndDisabling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5b1bfc98_d3eb_4073_934f_984c24ddfef4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5b1bfc98_d3eb_4073_934f_984c24ddfef4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-015</rdfs:comment>
+        <rdfs:label xml:lang="en">SMS_basedCommunication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_5c08eefa_8244_4272_b68c_6f24666eb49d -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5c08eefa_8244_4272_b68c_6f24666eb49d">
@@ -1347,12 +1512,32 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_5e93b1d1_1389_4968_a99c_dc58a8d544bb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5e93b1d1_1389_4968_a99c_dc58a8d544bb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e8bba4e0_1b39_45bf_b031_aaa20123bd06"/>
+        <rdfs:label xml:lang="en">DataIntegrityEnsuranceMechanism</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-DI-001</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_b5c0d821_b62f_4098_9a87_9ab068cebe46"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceInformationKnowledgeBase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_60093b73_8d79_4465_911f_edf5a8029c89 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_60093b73_8d79_4465_911f_edf5a8029c89">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_18471212_0dca_43c7_807a_1e3346b35c76"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-028</rdfs:comment>
+        <rdfs:label xml:lang="en">RadioCellID</rdfs:label>
     </owl:Class>
     
 
@@ -1474,12 +1659,42 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_683fab4d_9f26_4338_a3f0_86e30b859e13 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_683fab4d_9f26_4338_a3f0_86e30b859e13">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_843d87bc_a343_470f_bff0_872b15b14c16"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-005</rdfs:comment>
+        <rdfs:label xml:lang="en">FirmwareUpdateResultIndication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_68e5a285_5ba6_4cb1_85e7_ac792a46c65f">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5fc8a8e2_e2d0_4920_af45_b6393b5ed989"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 488</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceOntology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_69034fb8_1114_422f_b34b_2c884813d6eb -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_69034fb8_1114_422f_b34b_2c884813d6eb">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-016</rdfs:comment>
+        <rdfs:label xml:lang="en">SessionBasedCommunication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_698bc07c_d088_45cb_a213_e564e199ab3e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_698bc07c_d088_45cb_a213_e564e199ab3e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_755c484b_7249_4f24_81fb_2d9ac5948eab"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-032</rdfs:comment>
+        <rdfs:label xml:lang="en">ReadWrite</rdfs:label>
     </owl:Class>
     
 
@@ -1500,6 +1715,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_1543e022_678c_4b10_9895_de120d944f03"/>
         <rdfs:comment>IoT home gateway for auto-conﬁguration and management of MQTT devices, section III.</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceStatusChangeMessage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2281b85a_ace5_4ac3_910f_536f7370505e"/>
+        <rdfs:label xml:lang="en">RemoteDeviceControl</rdfs:label>
     </owl:Class>
     
 
@@ -1527,7 +1751,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceLogs</rdfs:label>
     </owl:Class>
@@ -1583,6 +1807,25 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_74bba417_5316_4b3f_b7d2_9fb2a118db2f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_74bba417_5316_4b3f_b7d2_9fb2a118db2f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:label xml:lang="en">Confidentiality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_755c484b_7249_4f24_81fb_2d9ac5948eab -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_755c484b_7249_4f24_81fb_2d9ac5948eab">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5c08eefa_8244_4272_b68c_6f24666eb49d"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-032</rdfs:comment>
+        <rdfs:label xml:lang="en">ResourceAccessControl</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_75c6328f_52a3_4d5f_becc_ca0e07757ed6 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_75c6328f_52a3_4d5f_becc_ca0e07757ed6">
@@ -1593,11 +1836,40 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_77093e6d_5bcf_4317_aedc_a07046a659aa -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_77093e6d_5bcf_4317_aedc_a07046a659aa">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:label xml:lang="en">Authorization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_774b5f3e_c378_4bfa_8bb7_2a9c4fd4190b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_774b5f3e_c378_4bfa_8bb7_2a9c4fd4190b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_755c484b_7249_4f24_81fb_2d9ac5948eab"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-032</rdfs:comment>
+        <rdfs:label xml:lang="en">ReadOnly</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_774c7acb_c17d_4e26_8afc_75f16a0910c5 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_774c7acb_c17d_4e26_8afc_75f16a0910c5">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6ff26810_f417_457e_90e7_f7187268ec90"/>
         <rdfs:label xml:lang="en">LogMonitoringTools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_781f6c56_e24b_4fc7_9ae7_455aa2a4ec60 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_781f6c56_e24b_4fc7_9ae7_455aa2a4ec60">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ffcb0dd3_5746_4e9b_9905_50bfb9faff34"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-014</rdfs:comment>
+        <rdfs:label xml:lang="en">IP_BasedCommunication</rdfs:label>
     </owl:Class>
     
 
@@ -1628,6 +1900,26 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9fcb5dc3_b98f_464b_ad5b_3b1b47050d11"/>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
         <rdfs:label xml:lang="en">RemoteControl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_7ab62ac7_c17f_4f51_a14b_cac41106ad38 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7ab62ac7_c17f_4f51_a14b_cac41106ad38">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-020</rdfs:comment>
+        <rdfs:label xml:lang="en">EventTriggerReportingMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_7abbfbf0_1913_4412_b2ef_39bc779ff6b0 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7abbfbf0_1913_4412_b2ef_39bc779ff6b0">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5303cc63_d095_4c30_b893_51cfe691cb7e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-018</rdfs:comment>
+        <rdfs:label xml:lang="en">PowerSavingModeConfiguration</rdfs:label>
     </owl:Class>
     
 
@@ -1667,6 +1959,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_201d2207_e63c_4bd0_ac8e_dac6fd8b7d61"/>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareUpdateManagment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_808d7fbb_8678_46ad_a137_a3811cd7dfc8 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_808d7fbb_8678_46ad_a137_a3811cd7dfc8">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e7e81967_1b1b_4dfb_b9b6_c40e0ffab441"/>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-SEC-002</rdfs:label>
+        <rdfs:label xml:lang="en">ReplayAttackPrevention</rdfs:label>
     </owl:Class>
     
 
@@ -1723,6 +2025,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_843d87bc_a343_470f_bff0_872b15b14c16">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7ed5a132_c15b_486f_91f4_ad5eb4433cef"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-004</rdfs:comment>
         <rdfs:label xml:lang="en">FirmwareUpdateMechanism</rdfs:label>
     </owl:Class>
     
@@ -1829,6 +2132,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8a91ffb6_d1c9_4026_9031_fd318df66665">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_38e18d87_aade_4d8b_ab6e_1da467276a13"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-001</rdfs:comment>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">UniqueDeviceID</rdfs:label>
     </owl:Class>
@@ -1841,6 +2145,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_30d8bc8b_4188_4a4f_be58_c4d70f00474e"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2018-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">ContainerSupervisor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8bf32c78_6c9c_4513_bbe2_dd201c1aad26 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8bf32c78_6c9c_4513_bbe2_dd201c1aad26">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-006</rdfs:comment>
+        <rdfs:label xml:lang="en">PowerSourceStatus</rdfs:label>
     </owl:Class>
     
 
@@ -1870,6 +2184,35 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_0fd00cb3_e44d_420b_bff2_9aafb1b10ace"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">NewDeviceDiscoveryInNetwork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8df9f631_124d_4ae8_bd80_f06501eb3875 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8df9f631_124d_4ae8_bd80_f06501eb3875">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-027</rdfs:comment>
+        <rdfs:label xml:lang="en">ConnectivityStatusReportingMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8e4f6b4d_92dd_4de5_9e89_8d0f3d918c5e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8e4f6b4d_92dd_4de5_9e89_8d0f3d918c5e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9"/>
+        <rdfs:label xml:lang="en">ReportingMechanismConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_8ef34b5e_e120_4420_acd3_d1d04918da6b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8ef34b5e_e120_4420_acd3_d1d04918da6b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-039</rdfs:label>
+        <rdfs:label xml:lang="en">TemporaryNetworkConnectionProhibition</rdfs:label>
     </owl:Class>
     
 
@@ -1974,6 +2317,15 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_99b11aed_52eb_4a10_bb75_199cc40de00f -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_99b11aed_52eb_4a10_bb75_199cc40de00f">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:label xml:lang="en">Authentication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_99c4f5ac_bd0a_4686_9de1_4f1b80bc296a -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_99c4f5ac_bd0a_4686_9de1_4f1b80bc296a">
@@ -2056,6 +2408,16 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_86628aec_b662_41c9_ae13_eec3bc59261a"/>
         <rdfs:comment>https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
         <rdfs:label xml:lang="en">PythonSDK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_9f7e7307_2ac9_4f08_a47b_fc4d7ff74843 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9f7e7307_2ac9_4f08_a47b_fc4d7ff74843">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_74bba417_5316_4b3f_b7d2_9fb2a118db2f"/>
+        <rdfs:label xml:lang="en">ConfidentialityEnsuranceMechanism</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-CF-001</rdfs:label>
     </owl:Class>
     
 
@@ -2197,6 +2559,26 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_ab772eaa_6f3a_44f2_b270_a2e094d82405 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ab772eaa_6f3a_44f2_b270_a2e094d82405">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-031</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceStateChanges</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_ac590a14_c363_4380_af94_cc6137c8707a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ac590a14_c363_4380_af94_cc6137c8707a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_213b255b_d2a6_41ac_9e58_75311a7288f3"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-033</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceResourceGrouping</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ae34f5cf_8888_4de3_9170_7e8f6eab5f86">
@@ -2265,6 +2647,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_b46bcdaf_df8a_4518_bbde_2812fa79496b -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b46bcdaf_df8a_4518_bbde_2812fa79496b">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-035</rdfs:comment>
+        <rdfs:label xml:lang="en">MultipleResourcesPerRequestDataTransferMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_b5c0d821_b62f_4098_9a87_9ab068cebe46 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b5c0d821_b62f_4098_9a87_9ab068cebe46">
@@ -2310,6 +2702,26 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceProvisioning</rdfs:label>
         <rdfs:seeAlso>DeviceRegistration</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_bc3a1c08_92da_4179_aa2b_861d9851f19e -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_bc3a1c08_92da_4179_aa2b_861d9851f19e">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-019</rdfs:comment>
+        <rdfs:label xml:lang="en">PeriodicResourceReportingMechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_be8c9911_33e0_4d3b_8684_14d7241af1a7 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_be8c9911_33e0_4d3b_8684_14d7241af1a7">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_99b11aed_52eb_4a10_bb75_199cc40de00f"/>
+        <rdfs:label xml:lang="en">MutualAuthenticationBetweenClientAndServer</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-AT-001</rdfs:label>
     </owl:Class>
     
 
@@ -2379,6 +2791,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c35d26c2_65cc_49bd_9875_9932fb747dd5">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e1800f6_b3ba_41ee_b0ce_dac66a1a8680"/>
         <rdfs:label xml:lang="en">ApplicationLayerProtocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_c3ce4f0f_2c54_43f1_801e_ce9649e05082 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_c3ce4f0f_2c54_43f1_801e_ce9649e05082">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_f4c68c89_a4ee_4e3f_b527_9a88d50887fe"/>
+        <rdfs:label xml:lang="en">NetworkConnectivityProhibitionRestoreMechanism</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-040</rdfs:label>
     </owl:Class>
     
 
@@ -2466,8 +2888,10 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_ce0a0295_7d23_4e15_bede_e55ff6079039">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8c2c705b_ddcf_4dc0_b9d5_6e507868806e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-037</rdfs:comment>
         <rdfs:comment>https://resin.io/features/, 2018-09-15</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceIPAddress</rdfs:label>
+        <rdfs:label>DeviceConnectionAddress</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">DeviceIPAddress</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2549,6 +2973,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_d4cad6cb_2254_4af2_9ece_5f8b6f2fd024 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d4cad6cb_2254_4af2_9ece_5f8b6f2fd024">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8e4f6b4d_92dd_4de5_9e89_8d0f3d918c5e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-022</rdfs:comment>
+        <rdfs:label xml:lang="en">ResourceReportingPeriodConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_d5baf8ff_3ca0_40a1_988a_a5e23a144824">
@@ -2607,6 +3041,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_da50a2d9_4834_46a1_8732_acd2c232e6fe -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_da50a2d9_4834_46a1_8732_acd2c232e6fe">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-011</rdfs:comment>
+        <rdfs:label xml:lang="en">PhysicalDeviceRessourcesEnablingAndDisabling</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_dc03e030_6d6c_4437_b2df_51251234a10e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_dc03e030_6d6c_4437_b2df_51251234a10e">
@@ -2620,9 +3064,9 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <!-- http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_dd21fadb_8dfb_46e9_a311_b39ddefaad69">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2fb332cc_9b13_4fbc_af07_4ce1a662e062"/>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 9</rdfs:comment>
-        <rdfs:label xml:lang="en">DeviceStatusInquiry</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceStatus</rdfs:label>
     </owl:Class>
     
 
@@ -2662,6 +3106,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_96668876_e17b_46e9_b086_5835d62ceaaa"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
         <rdfs:label xml:lang="en">DeviceKPIs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e08e2786_4de4_4eb8_b28b_5d5fc6647ef1 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e08e2786_4de4_4eb8_b28b_5d5fc6647ef1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-009</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceFactoryReset</rdfs:label>
     </owl:Class>
     
 
@@ -2775,6 +3229,25 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_e88e14ac_6d0e_41b7_9a94_bcc9b084f763 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e88e14ac_6d0e_41b7_9a94_bcc9b084f763">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-029</rdfs:comment>
+        <rdfs:label xml:lang="en">DataReportingBearerConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_e8bba4e0_1b39_45bf_b031_aaa20123bd06 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e8bba4e0_1b39_45bf_b031_aaa20123bd06">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_66c3fc69_337f_4795_a467_f0b64b90cb3b"/>
+        <rdfs:label xml:lang="en">DataIntegrity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_e9559715_ca44_42e4_ab33_3545bec40f7e -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e9559715_ca44_42e4_ab33_3545bec40f7e">
@@ -2811,6 +3284,26 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9706d318_5cd1_4e58_8c3b_72eef36ee70a"/>
         <rdfs:comment>draft-moran-suit-architecture-03 (work in progress), p. 12</rdfs:comment>
         <rdfs:label xml:lang="en">DependenciesToOtherManifests</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_eb55e31a_c8b3_4bd9_809d_197359daa7a4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_eb55e31a_c8b3_4bd9_809d_197359daa7a4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_88bd0206_ec77_40fc_bde2_6c1e2637b12a"/>
+        <rdfs:label xml:lang="en">ConnectionLog</rdfs:label>
+        <rdfs:label>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-038</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_eb872de9_1d72_443b_a517_5502e0766fe4 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_eb872de9_1d72_443b_a517_5502e0766fe4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8c2c705b_ddcf_4dc0_b9d5_6e507868806e"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-025</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceRadioSignalStrength</rdfs:label>
     </owl:Class>
     
 
@@ -2939,12 +3432,31 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLClass_f5785649_0a85_47a8_a029_1d752a693e0a -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f5785649_0a85_47a8_a029_1d752a693e0a">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cfc68839_b898_454c_9314_0822698917f2"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-003</rdfs:comment>
+        <rdfs:label xml:lang="en">InstalledFirmwareVersion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLClass_f58b9658_2ee9_4f41_83f0_3bbdce1de398 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f58b9658_2ee9_4f41_83f0_3bbdce1de398">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_574c5366_c20d_467b_8ad6_787581d5f349"/>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 6</rdfs:comment>
         <rdfs:label xml:lang="en">ProtocolConversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_f6444fa6_1240_4dfa_9bba_affd175076ca">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_9e3d4f19_96c7_4932_a007_26fa592f3423"/>
+        <rdfs:label xml:lang="en">ReportingMechanism</rdfs:label>
     </owl:Class>
     
 
@@ -3022,6 +3534,16 @@ by the sensor (e.g., temperature, wind speed, etc.).&quot;</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fcd9404e_bd15_4965_8208_dae7b7883655">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_2ee3c907_2ad6_45fc_999f_299667c29188"/>
         <rdfs:label xml:lang="en">Mechanisms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_fd5e408d_9ebf_433d_b9cc_9ff5fb8945ec -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_fd5e408d_9ebf_433d_b9cc_9ff5fb8945ec">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_6cb818a3_6278_4bad_8a6b_c01ee623c677"/>
+        <rdfs:comment>OMA-RD-LightweightM2M-V1_0-20170208-A, Label: LightweightM2M-HLF-034</rdfs:comment>
+        <rdfs:label xml:lang="en">DeviceResourceManagement</rdfs:label>
     </owl:Class>
     
 
