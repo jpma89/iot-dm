@@ -871,7 +871,7 @@
     <!-- http://purl.org/net/iot-dm#OWLClass_30ea11de_95fd_46c4_a0cb_bcb17dcf6830 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_30ea11de_95fd_46c4_a0cb_bcb17dcf6830">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5985dbe5_dc91_4677_a070_127370474bb9"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_5303cc63_d095_4c30_b893_51cfe691cb7e"/>
         <rdfs:comment>Recent Advances in Industrial Wireless Sensor Networks Towards Efficient Management in IoT, p. 1</rdfs:comment>
         <rdfs:label xml:lang="en">NetworkParameters</rdfs:label>
     </owl:Class>
@@ -1780,7 +1780,7 @@ https://resin.io/how-it-works/, 2019-09-16</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_61f9a451_6c61_43bf_a7b9_b953e6a05724">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cbca8db6_d106_4651_a12c_b8fe629efbda"/>
         <rdfs:comment>Management of IoT Devices in a Physical Network, p. 487</rdfs:comment>
-        <rdfs:label xml:lang="en">UnauthorizedAccessDetectionAndMonitoring</rdfs:label>
+        <rdfs:label xml:lang="en">UnauthorizedAccessDetection</rdfs:label>
     </owl:Class>
     
 
