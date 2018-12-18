@@ -152,15 +152,6 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_17c0f872_25a2_4f33_af2c_dbbdaead4b62 -->
-
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_17c0f872_25a2_4f33_af2c_dbbdaead4b62">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_750f572d_1751_4620_89a7_d91676196c2f"/>
-        <rdfs:label xml:lang="en">SecureComponentManagementFeature</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/net/iot-dm#OWLClass_25f49a5d_da0f_46e1_90e1_4a2281dcd4e7 -->
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_25f49a5d_da0f_46e1_90e1_4a2281dcd4e7">
@@ -174,7 +165,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_2e5ed911_9dfc_4c1d_a428_6483c62b5727">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e80ba845_f754_4a88_81b8_9a831e2f943f"/>
-        <rdfs:label xml:lang="en">DeviceConditionMonitoringFeature</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceStatusMonitoringFeature</rdfs:label>
     </owl:Class>
     
 
@@ -188,11 +179,11 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_387f12ea_ada7_4e3b_8ae1_a1a2355b3663 -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_40017c5a_32d3_4959_b8f4_1d2c97abd957 -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_387f12ea_ada7_4e3b_8ae1_a1a2355b3663">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4ad749fb_3ce5_4217_b908_cae7b3f33612"/>
-        <rdfs:label xml:lang="en">DeviceDataAnalyticsFeature</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_40017c5a_32d3_4959_b8f4_1d2c97abd957">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_750f572d_1751_4620_89a7_d91676196c2f"/>
+        <rdfs:label xml:lang="en">TrustManagementFeature</rdfs:label>
     </owl:Class>
     
 
@@ -203,16 +194,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cf76c997_7252_4987_9dec_512b22f1ec05"/>
         <rdfs:label xml:lang="en">DeviceOverviewFeature</rdfs:label>
         <skos:altLabel xml:lang="en">DeviceListingFeature</skos:altLabel>
-        <skos:prefLabel xml:lang="en">DeviceOverviewFeature</skos:prefLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_4ad749fb_3ce5_4217_b908_cae7b3f33612 -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_4a5a0503_8c6b_408f_b02f_ffaeef6b2fae -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4ad749fb_3ce5_4217_b908_cae7b3f33612">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8f9d8593_57bd_4f82_b159_d790884a85c7"/>
-        <rdfs:label xml:lang="en">DeviceManagementAnalyticsFeature</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4a5a0503_8c6b_408f_b02f_ffaeef6b2fae">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_035beddc_004f_49aa_a1ed_cd3fc1777511"/>
+        <rdfs:label xml:lang="en">DeviceAttachedHardwareControlFeatures</rdfs:label>
     </owl:Class>
     
 
@@ -222,6 +212,15 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_4e7b1cff_8e8c_4d90_95e9_eb40b996d307">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_ea3e4c67_ad2d_4019_b326_1a988bc6a1a7"/>
         <rdfs:label xml:lang="en">ApplicationManagementFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLClass_5c43c0f9_00ba_480a_b1c7_9ecac70fdbd6 -->
+
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_5c43c0f9_00ba_480a_b1c7_9ecac70fdbd6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_035beddc_004f_49aa_a1ed_cd3fc1777511"/>
+        <rdfs:label xml:lang="en">DeviceInternalControlFeature</rdfs:label>
     </owl:Class>
     
 
@@ -258,8 +257,8 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_7e0019fd_b912_49d4_91a5_78ce4ce21a03">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_cf76c997_7252_4987_9dec_512b22f1ec05"/>
         <rdfs:label xml:lang="en">DeviceProvisioningFeature</rdfs:label>
+        <skos:altLabel xml:lang="en">DeviceBootstrappingFeature</skos:altLabel>
         <skos:altLabel xml:lang="en">DeviceRegistrationFeature</skos:altLabel>
-        <skos:prefLabel xml:lang="en">DeviceProvisioningFeature</skos:prefLabel>
     </owl:Class>
     
 
@@ -272,11 +271,11 @@
     
 
 
-    <!-- http://purl.org/net/iot-dm#OWLClass_968c3e48_18d8_4e8b_9988_b56895c32cb9 -->
+    <!-- http://purl.org/net/iot-dm#OWLClass_8ff39812_ad25_449b_83cf_5e98da85b803 -->
 
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_968c3e48_18d8_4e8b_9988_b56895c32cb9">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e0421ee4_95bf_4c60_8719_0fa3e3da55d6"/>
-        <rdfs:label xml:lang="en">HealthCheckFeature</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_8ff39812_ad25_449b_83cf_5e98da85b803">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_7690a45c_38bd_4cd6_8220_3dcabfd8336b"/>
+        <rdfs:label xml:lang="en">Test</rdfs:label>
     </owl:Class>
     
 
@@ -286,15 +285,6 @@
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9d53ab66_e0d8_441c_842d_271aaa7c5e50">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e80ba845_f754_4a88_81b8_9a831e2f943f"/>
         <rdfs:label xml:lang="en">DeviceSoftwareMonitoringFeature</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/iot-dm#OWLClass_9f539a65_1fd0_4ce8_8eae_4bea582bbdda -->
-
-    <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_9f539a65_1fd0_4ce8_8eae_4bea582bbdda">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_4ad749fb_3ce5_4217_b908_cae7b3f33612"/>
-        <rdfs:label xml:lang="en">EventAnalyticsFeature</rdfs:label>
     </owl:Class>
     
 
@@ -312,7 +302,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_b266f40f_bd54_4e18_86be_989c7de08d1b">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8f9d8593_57bd_4f82_b159_d790884a85c7"/>
-        <rdfs:label xml:lang="en">DeviceConfigurationFeature</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceConfigurationManagementFeature</rdfs:label>
     </owl:Class>
     
 
@@ -332,7 +322,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8f9d8593_57bd_4f82_b159_d790884a85c7"/>
         <rdfs:label xml:lang="en">DeviceRegistryFeature</rdfs:label>
         <skos:altLabel xml:lang="en">DeviceInventoryFeature</skos:altLabel>
-        <skos:prefLabel xml:lang="en">DeviceRegistryFeature</skos:prefLabel>
     </owl:Class>
     
 
@@ -350,7 +339,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_e0421ee4_95bf_4c60_8719_0fa3e3da55d6">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_8f9d8593_57bd_4f82_b159_d790884a85c7"/>
-        <rdfs:label xml:lang="en">DeviceTroubleshootingAndDiagnosticsFeature</rdfs:label>
+        <rdfs:label xml:lang="en">DeviceDiagnosticsAndTroubleshootingFeature</rdfs:label>
     </owl:Class>
     
 
@@ -386,7 +375,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/iot-dm#OWLClass_eb17204b_4eff_4ea5_96c0_87b4d18ec90a">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/iot-dm#OWLClass_e0421ee4_95bf_4c60_8719_0fa3e3da55d6"/>
-        <rdfs:label xml:lang="en">FailureTroubleshootingFeature</rdfs:label>
+        <rdfs:label xml:lang="en">TroubleshootingFeature</rdfs:label>
     </owl:Class>
     
 
@@ -428,17 +417,60 @@
     
 
 
+    <!-- http://purl.org/net/iot-dm#OWLNamedIndividual_3f7c0fdd_79cf_4081_bbdd_cca8adc61588 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/iot-dm#OWLNamedIndividual_3f7c0fdd_79cf_4081_bbdd_cca8adc61588">
+        <rdf:type rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
+        <OWLObjectProperty_446334a7_68bf_423a_be08_7ec5bd4e13ed rdf:resource="http://purl.org/net/iot-dm#OWLNamedIndividual_61b1c65c_93f2_4566_bd83_2c5490a7e46d"/>
+        <OWLObjectProperty_446334a7_68bf_423a_be08_7ec5bd4e13ed rdf:resource="http://purl.org/net/iot-dm#OWLNamedIndividual_f3c94aab_7167_408a_aedc_c2d8109d71ad"/>
+        <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74 xml:lang="en">Open Mobile Alliance</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
+        <rdfs:label xml:lang="en">Reference_LWM2Mv1.0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLNamedIndividual_61b1c65c_93f2_4566_bd83_2c5490a7e46d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/iot-dm#OWLNamedIndividual_61b1c65c_93f2_4566_bd83_2c5490a7e46d">
+        <rdf:type rdf:resource="http://purl.org/net/iot-dm#OWLClass_8ff39812_ad25_449b_83cf_5e98da85b803"/>
+        <rdfs:label xml:lang="en">Test_Instance2</rdfs:label>
+        <skos:altLabel xml:lang="en">Nice_Instance2</skos:altLabel>
+        <skos:altLabel xml:lang="en">Yolo_Instance2</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/net/iot-dm#OWLNamedIndividual_7f6922eb_107c_471a_99d1_e6118e94c90b -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/net/iot-dm#OWLNamedIndividual_7f6922eb_107c_471a_99d1_e6118e94c90b">
         <rdf:type rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
+        <OWLObjectProperty_446334a7_68bf_423a_be08_7ec5bd4e13ed rdf:resource="http://purl.org/net/iot-dm#OWLNamedIndividual_61b1c65c_93f2_4566_bd83_2c5490a7e46d"/>
         <OWLDataProperty_1ad53110_9e17_4da4_b1e9_2ba72fdf5732 xml:lang="en">Open Mobile Alliance</OWLDataProperty_1ad53110_9e17_4da4_b1e9_2ba72fdf5732>
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb xml:lang="en">2018</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
-        <OWLDataProperty_576a3774_5cb3_4dc1_870e_a0daca49caef xml:lang="en">6.1.1.3  Bootstrap and Registration</OWLDataProperty_576a3774_5cb3_4dc1_870e_a0daca49caef>
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862 xml:lang="en">http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-RD-LightweightM2M-V1_1-20180710-A.pdf</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Lightweight Machine to Machine Requirements
 Approved Version 1.1</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">LWM2M_v1.1_Bootstrap_and_Registration</rdfs:label>
+        <rdfs:label xml:lang="en">Reference_LWM2Mv1.1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLNamedIndividual_d8cae495_37bc_41a4_9863_e80f528b839a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/iot-dm#OWLNamedIndividual_d8cae495_37bc_41a4_9863_e80f528b839a">
+        <rdf:type rdf:resource="http://purl.org/net/iot-dm#OWLClass_e2bf9f22_8da3_405c_a596_43891b3712a5"/>
+        <rdfs:label xml:lang="en">Test_Instance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/iot-dm#OWLNamedIndividual_f3c94aab_7167_408a_aedc_c2d8109d71ad -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/iot-dm#OWLNamedIndividual_f3c94aab_7167_408a_aedc_c2d8109d71ad">
+        <rdf:type rdf:resource="http://purl.org/net/iot-dm#OWLClass_e2bf9f22_8da3_405c_a596_43891b3712a5"/>
+        <rdfs:label xml:lang="en">Feature_FirmwareStorage</rdfs:label>
+        <skos:altLabel xml:lang="en">Feature_FirmwareImageStorage</skos:altLabel>
+        <skos:altLabel xml:lang="en">Feature_FirmwareRepository</skos:altLabel>
     </owl:NamedIndividual>
 </rdf:RDF>
 
