@@ -73,7 +73,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_1ad53110_9e17_4da4_b1e9_2ba72fdf5732">
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -82,25 +82,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb">
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">Year</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/net/iot-dm#OWLDataProperty_2b0b408e_9d05_4931_a016_02804a16cb54 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_2b0b408e_9d05_4931_a016_02804a16cb54">
-        <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">PageReference</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/net/iot-dm#OWLDataProperty_576a3774_5cb3_4dc1_870e_a0daca49caef -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_576a3774_5cb3_4dc1_870e_a0daca49caef">
-        <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">SectionReference</rdfs:label>
+        <rdfs:label xml:lang="en">year</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -109,7 +91,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862">
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">Url</rdfs:label>
+        <rdfs:label xml:lang="en">url</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -118,7 +100,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995">
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:label xml:lang="en">title</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -127,7 +109,7 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/net/iot-dm#OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74">
         <rdfs:domain rdf:resource="http://purl.org/net/iot-dm#OWLClass_ef642a34_d025_4a66_b470_a7b6884df88a"/>
-        <rdfs:label xml:lang="en">Author</rdfs:label>
+        <rdfs:label xml:lang="en">author</rdfs:label>
     </owl:DatatypeProperty>
     
 
