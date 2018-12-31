@@ -423,7 +423,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Ontologies for the Internet of Things</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Hachem, Sara and Teixeira, Thiago and Issarny, Valérie</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_HachemEtAl2011</rdfs:label>
+        <rdfs:label>Ref_HachemEtAl2011</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -489,7 +489,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-RD-LightweightM2M-V1_0-20170208-A.pdf</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Lightweight Machine to Machine Requirements -- Approved Version 1.0 -- OMA-RD-LightweightM2M-V1_0-20170208-A</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">Ref_LwM2Mv1.0</rdfs:label>
+        <rdfs:label>Ref_LwM2Mv1.0</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -504,7 +504,7 @@
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>https://tools.ietf.org/html/draft-moran-suit-architecture-03</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Internet-Draft -- A Firmware Update Architecture for Internet of Things Devices -- draft-moran-suit-architecture-03</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Moran, Brendan and Meriac, Milosch and Tschofenig, Hannes</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_MoranEtAl2018</rdfs:label>
+        <rdfs:label>Ref_MoranEtAl2018</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -517,7 +517,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">IoT home gateway for auto-configuration and management of MQTT devices</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Kim, Seong-Min and Choi, Hoan-Suk and Rhee, Woo-Seop</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_KimEtAl2015</rdfs:label>
+        <rdfs:label>Ref_KimEtAl2015</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -584,7 +584,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-RD-LightweightM2M-V1_1-20180710-A.pdf</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Lightweight Machine to Machine Requirements -- Approved Version 1.1 -- OMA-RD-LightweightM2M-V1_1-20180710-A</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">Ref_LwM2Mv1.1</rdfs:label>
+        <rdfs:label>Ref_LwM2Mv1.1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -723,7 +723,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Recent Advances in Industrial Wireless Sensor Networks Toward Efficient Management in IoT</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Sheng, Zhengguo and Mahapatra, Chinmaya and Zhu, Chunsheng and Leung, Victor C. M.</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_ShengEtAl2015</rdfs:label>
+        <rdfs:label>Ref_ShengEtAl2015</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -853,7 +853,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>https://docs.microsoft.com/de-de/windows-hardware/manufacture/iot/iotcoreservicesoverview</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Microsoft Hardware Dev Center -- Windows 10 IoT Core Services</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">Ref_MicrosoftHardwareDevCenter</rdfs:label>
+        <rdfs:label>Ref_MicrosoftHardwareDevCenter</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -958,7 +958,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>https://www.nec.com/en/global/rd/technologies/falsification_find/index.html</OWLDataProperty_5bfdf484_3684_4279_897e_9bdb4f3ec862>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Featured Technologies -- Lightweight-architecture tamper detection technology to protect IoT devices</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">Ref_NecTamperDetection</rdfs:label>
+        <rdfs:label>Ref_NecTamperDetection</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -972,7 +972,7 @@
         <OWLDataProperty_1ad53110_9e17_4da4_b1e9_2ba72fdf5732>ISO/IEC</OWLDataProperty_1ad53110_9e17_4da4_b1e9_2ba72fdf5732>
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">ISO/IEC 30118-1 -- Information technology -- Open Connectivity Foundation (OCF) Specification -- Part 1: Core specification</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
-        <rdfs:label xml:lang="en">Ref_IsoIec30118-1</rdfs:label>
+        <rdfs:label>Ref_IsoIec30118-1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1004,7 +1004,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Management of IoT Devices in a Physical Network</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Ferreira, Jose and Soares, Joao Nuno and Jardim-Goncalves, Ricardo and Agostinho, Carlos</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_FerreiraEtAl2017</rdfs:label>
+        <rdfs:label>Ref_FerreiraEtAl2017</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1017,7 +1017,7 @@
         <OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</OWLDataProperty_1d525cd1_8df5_4cb8_bdd5_d7fc728396fb>
         <OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995 xml:lang="en">Trust management system design for the Internet of Things: A context-aware and multi-service approach</OWLDataProperty_9d99a78b_f541_4469_9455_66ecc5f24995>
         <OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>Ben Saied, Yosra and Olivereau, Alexis and Zeghlache, Djamal and Laurent, Maryline</OWLDataProperty_eaaf5383_c18c_4cf3_9619_3c7adcda1f74>
-        <rdfs:label xml:lang="en">Ref_BenSaiedEtAl2013</rdfs:label>
+        <rdfs:label>Ref_BenSaiedEtAl2013</rdfs:label>
     </owl:NamedIndividual>
     
 
