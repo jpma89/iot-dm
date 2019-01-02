@@ -1,7 +1,5 @@
 # IoT Device Management Ontology (iot-dm)
 
----
-
 ## Abstract
 
 **Keywords**: *Internet of Things, IoT, Device Management, Ontology*
@@ -10,12 +8,8 @@ To ensure reliable and secure long-term operations of IoT based solutions, manuf
 
 This lightweight ontology, which I created as part of my business information technology studies, shall serve as a first step towards creating a common understanding of the knowledge domain and its terminology by consolidating functional areas and actual IoT device managment functional features from various sources of information. To verify that this newly developed ontology appropriately addresses the mentioned challenges, its capability of answering defined competency questions is demonstrated using some exemplary SPARQL queries contained in the 'Extras' folder.
 
----
-
 ## Questions
 Please raise any questions / remarks by creating a new issue within this repository.
-
----
 
 ## Contribute
 Your contributions are more than welcome. Please fork the master branch of this repository and submit your changes via pull request. Thanks a lot for contributing.
