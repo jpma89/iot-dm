@@ -1,6 +1,6 @@
 # Example SPARQL queries for some competency questions
 
-**Competency question 1: Which are the top-level functional areas of IoT device management?**
+### Competency question 1: Which are the top-level functional areas of IoT device management?
 ```sparql
 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -13,7 +13,7 @@ WHERE
   }
 ```
 
-**Competency question 2: Which are the sub-concepts of a top-level functional area <e.g. DeviceSoftwareManagementFeature>?**
+### Competency question 2: Which are the sub-concepts of a top-level functional area <e.g. DeviceSoftwareManagementFeature>?
 ```sparql
 PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -32,7 +32,7 @@ WHERE
   }
 ```
 
-**Competency question 3a: Which alternative terms do exist for the functial area <e.g. DeviceProvisioningFeature>?**
+### Competency question 3a: Which alternative terms do exist for the functial area <e.g. DeviceProvisioningFeature>?
 ```sparql
 PREFIX  skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -46,7 +46,7 @@ WHERE
   }
 ```
 
-**Competency question 3b: Which alternative terms do exist for an actual functional feature <e.g. FirmwareUpdateLocking>?**
+### Competency question 3b: Which alternative terms do exist for an actual functional feature <e.g. FirmwareUpdateLocking>?
 ```sparql
 PREFIX  skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -60,7 +60,7 @@ WHERE
   }
 ```
 
-**Competency question 4: Which are relevant sources of information for an actual functional feature <e.g. DeviceDiscovery>?**
+### Competency question 4: Which are relevant sources of information for an actual functional feature <e.g. DeviceDiscovery>?
 ```sparql
 PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
