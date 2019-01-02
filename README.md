@@ -1,5 +1,7 @@
 # IoT Device Management Ontology (iot-dm)
 
+**Ontology IRI: http://purl.org/net/iot-dm**
+
 ## Abstract
 
 **Keywords**: *Internet of Things, IoT, Device Management, Ontology*
